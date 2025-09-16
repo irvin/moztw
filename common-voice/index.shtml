@@ -27,7 +27,7 @@
     margin-bottom: 25px;
   }
   main h3 {
-    margin-top: 0;
+    margin-top: 30px;
   }
   main section h2 {
     font-size: 28px;
@@ -95,23 +95,149 @@
       </div>
     </section>
 
-    <section id="datasets" class="grids">
+    <section id="participants" class="grids">
       <header>
         <div class="hgroup">
-          <h1>錄音結果公布在哪？</h1>
+          <h1>參與名單</h1>
         </div>
       </header>
       <div class="grid-12">
-        <p>錄音結果以 <em>CC0 公眾領域授權</em>釋出，Mozilla 不對其作出任何版權限制，任何人跟任何公司都可以自由的下載與使用於自己的研究、開發專案上。</p>
-        <p>現在你就可以在這邊下載到國語、台語及其他一百三十種語言的錄音檔： <a href="https://commonvoice.mozilla.org/datasets" target="_blank">https://commonvoice.mozilla.org/datasets</a></p>
-        <p>網站上的錄音定期每三個月釋出一次。本次族語錄音的成果，預期將會於 2025 年四月公布於上述頁面。</p>
+        <p>經個別參與者同意，我們將族語錄音專案的錄音者部分列舉於下，特此感謝各位老師與同學的協助。</p>
+
+        <h3>賽德克語</h3>
+
+        <p>
+          德固達雅賽德克語 kari Seediq Tgdaya
+          <ul>
+            <li>吳克信 (Umin Nawi)</li>
+            <li>郭明吉（Walis Pawan）</li>
+            <li>桂素芳（Aking Puhuk）</li>
+            <li>林江苹秀（Bilaq Watan）</li>
+          </ul>
+        </p>
+        <p>
+          都達賽德克語 kari Sediq Toda
+          <ul>
+            <li>洪良全（Uya Pawan）</li>
+            <li>曾慧玲（Bakan Teymu）</li>
+          </ul>
+        </p>
+        <p>
+          德鹿谷賽德克語 kari Seejiq Truku
+          <ul>
+            <li>高玉美（Lubi Pingaw）</li>
+            <li>白玉珍（Away Buyung）</li>
+            <li>江凱文（Walis Huwac）</li>
+          </ul>
+        </p>
+
+        <h3>排灣語</h3>
+
+        <ul>
+          <li>dremedreman tjamatjakan 葉曉音</li>
+          <li>semasiang ngirengir 蔡光明</li>
+          <li>madraw ljegu 廖曉雯</li>
+          <li>kuliw taljialan 葉王靖</li>
+          <li>tjaiwan parilaw 博睿齊</li>
+          <li>giljigiljaw matalaq 陸飛堯</li>
+          <li>tamiku paqaliyus 利芳慈</li>
+          <li>vais ljegu 許芸熙</li>
+          <li>nuway ljegu 許芸臻</li>
+        </ul>
+
+        <h3>魯凱語</h3>
+
+        <ul>
+          <li>Lavaoso Lrarobociak 拉法鄔索拉魯布價克</li>
+          <li>Lavaoso Lataroribake 張小芳</li>
+          <li>Tagaga Palribulungu 包鳳嬌</li>
+          <li>Galraigai·Palikiliki 洪金玉</li>
+          <li>Moni Lacinakele 林玉花</li>
+          <li>Gilagilaw Larorakada 林勝華</li>
+          <li>Paelrese Kadrangilane 柯秋美</li>
+          <li>Maleveleve Thalimaraw 杜慶齡</li>
+          <li>Tanebake 謝至軒</li>
+          <li>Kedrekedre Dalapadhane 唐秀月</li>
+          <li>Peresang·Sukinarhimi 貝若桑·甦給那笛米</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="text-corpus" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>文本語料來源</h1>
+        </div>
+      </header>
+      <div class="grid-12">
+
+        <p>在族語專案錄音過程中，我們發現部分文本存在文意不符、單詞或拼寫錯誤等情況。因 Common Voice 系統限制，相關內容未能事先更正仍直接進行錄製。錄音者與教材之間是為共同協作關係，特此說明。</p>
+
+        <h3>十二年國教原住民族語文教材</h3>
+
+        <p>族語專案的錄音文本取自《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）內容，各方言計 500~700 句不等，經<a href="https://www.k12ea.gov.tw" target="_blank">中華民國教育部國民及學前教育署</a>（K-12 Education Administration, Ministry of Education, Taiwan ROC）授權。特別感謝時任教育部政務次長葉丙成協助協調授權事宜。</p>
+
+
+        <h3>族語聖經</h3>
+
+        <p>部分族語文本選自《<a href="https://cb.fhl.net" target="_blank">族語聖經</a>》，感謝財團法人台灣聖經公會（The Bible Society in Taiwan）授權。</p>
+        <ul>
+          <li>郡群布農語包含《布農語聖經》選句共 118 句。</li>
+          <li>多納語、萬山語、茂林語包含《馬可福音》選句各 59 句。</li>
+          <li>賽考利克泰雅語包含《泰雅爾語聖經》選句共 115 句。</li>
+          <li>德固達雅賽德克語包含《賽德克族 Tgdaya 語聖經》選句共 119 句。</li>
+        </ul>
+
+        <h3>台⼤台灣南島語語料庫</h3>
+
+        <p>部分族語文本選自國⽴台灣⼤學語⾔學研究所《<a href="https://corpus.linguistics.ntu.edu.tw/" target="_blank">台⼤台灣南島語語料庫</a>》（NTU Corpus of Formosan Languages, Graduate Institute of Linguistics, National Taiwan University），感謝宋麗梅老師協助。</p>
+        <ul>
+          <li>霧台魯凱語（<code>veday</code>）包含《台⼤台灣南島語語料庫》選句共 857 句。</li>
+          <li>撒奇萊雅語包含《台⼤台灣南島語語料庫》選句共 225 句。</li>
+          <li>德固達雅賽德克語（<code>tgdaya</code>）包含《台⼤台灣南島語語料庫》選句共 6 句。</li>
+        </ul>
+
+      </div>
+    </section>
+
+
+    <section id="datasets" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>下載語料集 / 錄音成果</h1>
+        </div>
+      </header>
+
+      <div class="grid-12">
+        <p>錄音結果以 <em><a href="https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hant" target="_blank">CC0 公眾領域授權</a></em> 釋出，Mozilla 不對其作出任何版權限制，任何人跟公司都可以自由的下載與使用於研究與專案開發。</p>
+
+        <p>本計畫收集的 77 小時族語語音資料，已於下列頁面公布：</p>
+
+        <ul>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw64xucq50tq2k4w9tb" target="_blank">排灣語</a></li>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw7vcp9x9jb5y2kj37x" target="_blank">賽德克語</a>（下載頁面誤植成「Taroko」，已回報尚待更正）</li>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw7vhm8h9jmii6kfbh0" target="_blank">撒奇萊雅語</a></li>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw7wttlixfk4bofb394" target="_blank">泰雅語</a>（含汶水、萬大）</li>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw58euq39wirzfqh4bz" target="_blank">魯凱語</a>（含多納、萬山、茂林）</li>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw4x64nvisgj8hui7ll" target="_blank">布農語</a></li>
+        </ul>
+
+        <p>國語與台語語音資料亦發布於下：</p>
+
+        <ul>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw8mxuawd2sltdw7epx" target="_blank">國語</a></li>
+          <li><a href="https://datacollective.mozillafoundation.org/datasets/cmflnuzw6c692o9c40agnyeyf" target="_blank">台語</a></li>
+        </ul>
+
+        <p>Common Voice 每三個月定期釋出錄音資料，你可以在這邊下載到超過 330 種語言的錄音檔： <a href="https://datacollective.mozillafoundation.org/datasets" target="_blank">datacollective.mozillafoundation.org/datasets</a></p>
       </div>
     </section>
 
     <section id="record" class="grids">
       <header>
         <div class="hgroup">
-          <h1>錄音方式</h1>
+          <h1>繼續錄音</h1>
         </div>
       </header>
       <div class="grid-12">
@@ -141,7 +267,7 @@
       <div class="grid-12">
         <p>本專案經 Mozilla 贊助台灣維基媒體協會進行原住民族語錄音，以建制開放自由的族語語音資料庫。</p>
         <p>補助範圍包含「排灣、賽德克、撒奇萊雅、泰雅（含汶水、萬大）、魯凱（含多納、萬山、茂林）、布農」等六大語群，及其下各方言語類。</p>
-        <p>每個語群我們將提供 50,000 元預算，補助 20 人次錄製 30 分鐘。另設有兩階段的達標獎勵金每個語言各 14,000 元，及完整六個語言全數完成的達標獎勵金合計 130,000 元。達標時限將在 1/31 及 3/15 結算各語言的錄音與驗證長度，請大家多多協助分享宣傳。</p>
+        <!--<p>每個語群我們將提供 50,000 元預算，補助 20 人次錄製 30 分鐘。另設有兩階段的達標獎勵金每個語言各 14,000 元，及完整六個語言全數完成的達標獎勵金合計 130,000 元。達標時限將在 1/31 及 3/15 結算各語言的錄音與驗證長度，請大家多多協助分享宣傳。</p>-->
       </div>
     </section>
 
@@ -152,11 +278,11 @@
         </div>
       </header>
       <div class="grid-6">
-        <p>本計劃已於 2025/4 結束，本計畫收集的 77 小時語音資料預計將於 2029 年 9 月底於 <a href="https://commonvoice.mozilla.org/zh-TW/datasets" target="_blank">Common Voice 網站</a>釋出。</p>
+        <p>本計劃已於 2025/4 結束。</p>
         <del>
         <p>如您想進一步了解本專案目標與補助細節，歡迎加入以下 Line 群組聯繫：<a href="https://line.me/ti/g/DkTvRAy7ba" target="_blank">https://line.me/ti/g/DkTvRAy7ba</a></p>
-        <p>如果你需要申請錄音補助經費，請填寫此一線上表格：<a href="https://forms.gle/2jsESFM2bZvufqE39" target="_blank">https://forms.gle/2jsESFM2bZvufqE39</a></p>
         </del>
+        <!--<p>如果你需要申請錄音補助經費，請填寫此一線上表格：<a href="https://forms.gle/2jsESFM2bZvufqE39" target="_blank">https://forms.gle/2jsESFM2bZvufqE39</a></p>-->
       </div>
       <div class="grid-6">
         <img src="images/line.png" alt="common voice in taiwan 群組" style="width: 100%; max-width: 200px; margin: 0 auto; display: block;">
@@ -166,7 +292,7 @@
     <section id="about" class="grids">
       <header>
         <div class="hgroup">
-          <h1>你們是誰？</h1>
+          <h1>專案團隊</h1>
         </div>
       </header>
       <div class="grid-12">
@@ -189,12 +315,27 @@
         </div>
       </header>
       <div class="grid-12">
+
+        <h3>協力單位</h3>
+
         <p>在此感謝以下單位及老師對本專案的鼎力支持：</p>
-        <!-- <h3>合作單位</h3> -->
+
         <ul>
           <li><a href="https://web.alcd.center/" target="_blank">國立政治大學原住民族研究中心</a> ALCD Center for Aboriginal Studies NCCU 黃季平老師</li>
           <li><a href="https://corpus.linguistics.ntu.edu.tw" target="_blank">臺灣大學語言學研究所 台大台灣南島語語料庫</a> NTU Corpus of Formosan Languages 宋麗梅老師</li>
-          <li><a href="https://www.edu.tw/cp.aspx?n=1651E228E175FB7D&s=C7BFF7B3ABFE1465" target="_blank">教育部葉丙成政務次長</a> 及 <a href="https://www.k12ea.gov.tw/" target="_blank">國民及學前教育署</a> 協助授權十二年國教課程原住民族語文教材（族語九階教材）</li>
+          <li><a href="https://www.k12ea.gov.tw/" target="_blank">國民及學前教育署</a> 及 <a href="https://web.archive.org/web/20250524163527/https://www.edu.tw/cp.aspx?n=1651E228E175FB7D&s=C7BFF7B3ABFE1465" target="_blank">時任教育部葉丙成政務次長</a> 協助協調十二年國教課程原住民族語文教材（族語九階教材）授權事宜</li>
+        </ul>
+
+        <h3>族語團隊</h3>
+
+        <p>在此感謝以下部落在地成員協助招募與錄音事宜：</p>
+
+        <ul>
+          <li>布農族 Aping 伍阿好老師</li>
+          <li><a href="https://www.facebook.com/PayuanClassic/" target="_blank">排灣經典 Payuan Classic</a> kuliw taljialan 葉王靖</li>
+          <li>花蓮縣撒奇萊雅族維基媒體協會</li>
+          <li>泰雅語推組織 Sugiy‧Tosi 素伊‧多夕</li>
+          <li>賽德克族林江苹秀（Bilaq Watan）</li>
         </ul>
       </div>
     </section>
@@ -210,6 +351,10 @@
       <div class="grid-12 news-block">
         <h3>最新消息</h3>
         <ul>
+          <li>
+            <span class="date">2025/9/17</span>
+            台灣原住民族語語料庫正式釋出
+          </li>
           <li>
             <span class="date">2025/2/21</span>
             <a href="https://medium.com/mozilla-related/common-voice-eight-formosan-languages-65b79fbd2c38" target="_blank">Mozilla 拓展志工主導的語音資料，催生含括台灣原住民族語的 AI</a>
