@@ -73,10 +73,11 @@
         </div>
       </header>
       <div class="grid-12">
-        <p>「Common Voice」開源語音語料收集專案（ <a target="_blank" href="https://commonvoice.mozilla.org">https://commonvoice.mozilla.org</a> ），是開發 Firefox（火狐瀏覽器）的非營利組織 Mozilla 基金會（<a href="https://foundation.mozilla.org/en/" target="_blank">Mozilla Foundation</a>）發起的專案。</p>
-        <p>這個專案的目的是收集世界上各種語言的錄音，並以 CC0 公眾授權（不限制商業用途）免費釋出。本專案自 2017 年開始至今，經由各地社群志工的協力，八年的時間，已經收錄超過 130 種語言。</p>
-        <p>Mozilla 發起 Common Voice 計劃的理想，是世界上所有的人，不論使用哪一種母語，都能享有語音輸入、語音合成、語音助理（如 Hey Siri 或 OK Google）等語音科技。</p>
-        <p>目前 Mozilla 自己未進行相關的 ASR 等語音模型開發。本專案僅處理收集、整理與開放資料等流程，並公開資料集，予以世界各地的科技廠商及研究者自由下載、免費使用。</p>
+        <p>「Common Voice」（<a target="_blank" href="https://commonvoice.mozilla.org">commonvoice.mozilla.org</a>），是由開發 Firefox（火狐）瀏覽器的非營利組織 <a href="https://foundation.mozilla.org/en/" target="_blank">Mozilla 基金會</a>（Mozilla Foundation）發起的開放語音庫專案。旨在蒐集世界各地的語音錄音，並以 CC0 公眾授權免費釋出。讓廠商、研究者及開發者等任何人都能自由下載，打造自己的語音專案，亦不限制商業使用。</p>
+
+        <p>Common Voice 計劃的理想，是世界上的所有人，不論使用哪一種母語，都能享有語音輸入、語音合成與智慧助理（如 Hey Siri 或 OK Google）等語音科技。不同於傳統商業公司的封閉模式，Mozilla 選擇與全球社群志工攜手合作，共同蒐集、整理語料，並以開放授權發佈資料集。</p>
+
+        <p>自 2017 年開始至今，經過八年各地社群的參與，Common Voice 已涵蓋 300 多種語言，成為全球最大的開放語音語料集。</p>
       </div>
     </section>
 
@@ -88,7 +89,7 @@
         </div>
       </header>
       <div class="grid-12">
-        <p>Common Voice 起始自 2017 年在台灣的<a href="https://moztw.kktix.cc/events/voice-jam">Voice Jam</a> 工作坊活動。</p>
+        <p>Common Voice 起始自 2017 年在台灣的 <a href="https://moztw.kktix.cc/events/voice-jam">Voice Jam</a> 工作坊活動。</p>
         <p>錄音網站開放後，MozTW 志工（及廣大的自由軟體社群參與者，如 g0v 成員）於 2018 年開始著手國語（台灣華語）的開設與推廣事宜，至今已累積 <a href="https://commonvoice.mozilla.org/zh-TW/languages" target="_blank">125 個小時以上的國語語料</a>。2020 年我們協助 Mozilla 香港社群上線香港廣東話。於 2022 年，我們推動台語錄音上線，至今也累積了 <a href="https://commonvoice.mozilla.org/nan-tw/languages" target="_blank">23 小時的免費開放語料</a>。</p>
         <p>2024 年末，我們爭取到 Mozilla 對於小型語言的補助，開始進行此原住民族語的語音錄音專案。</p>
         <p>關於 Common Voice 多年來在台灣的進展，推薦閱讀此篇最新的英文專訪，有提到台灣志工的參與脈絡：<a href="https://www.fastcompany.com/91224595/mozilla-is-now-offering-free-ai-voice-training-data-in-180-languages" target="_blank">Mozilla is now offering free AI voice training data in 180 languages - Fast Company</a></p>
