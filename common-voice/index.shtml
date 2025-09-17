@@ -104,36 +104,50 @@
       </header>
 
       <div class="grid-12">
-        <p>經個別參與者同意，我們將族語錄音專案的錄音者部分列舉於下，特此感謝各位老師與同學的協助。</p>
+        <p>經個別參與者同意，（部分）族語錄音專案的錄音者列舉於此，特此感謝老師與同學的協助。</p>
       </div>
 
       <div class="grid-6">
         <h3>賽德克語</h3>
 
-        <p>
-          德固達雅賽德克語 kari Seediq Tgdaya
-          <ul>
-            <li>吳克信 (Umin Nawi)</li>
-            <li>郭明吉（Walis Pawan）</li>
-            <li>桂素芳（Aking Puhuk）</li>
-            <li>林江苹秀（Bilaq Watan）</li>
-          </ul>
-        </p>
-        <p>
-          都達賽德克語 kari Sediq Toda
-          <ul>
-            <li>洪良全（Uya Pawan）</li>
-            <li>曾慧玲（Bakan Teymu）</li>
-          </ul>
-        </p>
-        <p>
-          德鹿谷賽德克語 kari Seejiq Truku
-          <ul>
-            <li>高玉美（Lubi Pingaw）</li>
-            <li>白玉珍（Away Buyung）</li>
-            <li>江凱文（Walis Huwac）</li>
-          </ul>
-        </p>
+        <ul>
+          <li>吳克信 (Umin Nawi)</li>
+          <li>郭明吉（Walis Pawan）</li>
+          <li>桂素芳（Aking Puhuk）</li>
+          <li>林江苹秀（Bilaq Watan）</li>
+          <li>洪良全（Uya Pawan）</li>
+          <li>曾慧玲（Bakan Teymu）</li>
+          <li>高玉美（Lubi Pingaw）</li>
+          <li>白玉珍（Away Buyung）</li>
+          <li>江凱文（Walis Huwac）</li>
+          <li>umus</li>
+        </ul>
+
+        <h3>布農語</h3>
+
+        <ul>
+          <li>Aping Islituan (伍阿好)</li>
+          <li>Biung Madiklaan (曾國義)</li>
+          <li>Atul Manqoqo' (全茂永)</li>
+          <li>Langui Maitangan (谷秀貞)</li>
+          <li>Tapas Islituan Takistahaian</li>
+          <li>Kaut Qalavangan</li>
+        </ul>
+
+        <h3>泰雅語</h3>
+
+        <ul>
+          <li>素伊 多夕 (Sugiy Tosi)</li>
+          <li>林純桂 (Toyu Watan)</li>
+          <li>方瑞玉 (Reko Ara)</li>
+          <li>莎菲依 諾佈 (Sabi Nobu)</li>
+          <li>王育安 (Maya Yuri)</li>
+          <li>李釋韋 (Tara Culet)</li>
+          <li>呂仲安 (Pasang Teru)</li>
+          <li>陳宇 (Buya Watan)</li>
+          <li>邱子茜 (Temi Nabung)</li>
+          <li>楊宬律 (Tapas Katu)</li>
+        </ul>
       </div>
 
       <div class="grid-6">
