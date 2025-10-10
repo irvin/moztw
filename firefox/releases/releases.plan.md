@@ -11,6 +11,13 @@
 - 社群貢獻者清單中的 bug 編號需加上可點擊的 Bugzilla 連結（`https://bugzilla.mozilla.org/<bug>`）。
 - 若官方段落包含示意圖：請下載圖片至 `firefox/releases/{xxx.x}/`，沿用清楚且可辨識的檔名（例如：`{xxx}_<slug>.png`），並在對應的 `<li>` 描述文字之後加入：`<p><img src="/firefox/releases/{xxx.x}/{filename}" alt="{圖說（繁中）}"></p>`。
  - 若官方標示為逐步釋出（progressive roll out），請在該 `<li>` 下加入一段 `p.progressive-roll` 說明，並移除原文括號註記。
+- 同步更新版號與首頁新聞：
+  - 更新變數檔 `inc/dlfx_var.shtml`：
+    - 將 `WINVER/WIN64VER/LINUXVER/LINUX64VER/OSXVER` 設為最新版本（例如：`{xxx.x}` 或 `{xxx.x.y}`）。
+    - 將 `TAGVER` 設為去點後的整數版號（例如：`131.0.3 → 13103`、`143.0 → 14300`）。
+    - 將 `LATEST_RELEASE_NOTES_VER` 設為最新版本字串（例如：`{xxx.x}`）。
+  - 首頁新聞 `inc/news.html`：
+    - 依釋出日期新增一筆最新新聞，連到 `/firefox/releases/{xxx.x}/`。
 - 置頂變數：
   - `release_date` 設為新版釋出日期
   - `version` 設為新版版本號
@@ -59,3 +66,5 @@
 - [ ] 社群貢獻者 bug 編號加上 Bugzilla 連結
 - [ ] 若段落含示意圖：下載圖片到該版本目錄並插入 `<img>` 標記
 - [ ] 加入 Bugzilla 完整變更清單與前一版連結，收尾 include
+- [ ] 更新 `inc/dlfx_var.shtml` 的版本號、`TAGVER` 與 `LATEST_RELEASE_NOTES_VER`
+- [ ] 在 `inc/news.html` 新增一筆最新新聞（同一行規則）
