@@ -1,0 +1,58 @@
+<!--#set var="release_date" value="2025-09-30" -->
+<!--#set var="version" value="143.0.3" -->
+<!--#set var="previous_version" value="143.0.1" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/143.0.3/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>調整「拖曳以釘選」功能提示的時機，以提高可靠性。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989344">Bug 1989344</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分擴充套件無法透過附加元件管理員更新的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1984724">Bug 1984724</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Firefox View 各區塊無法如預期摺疊／展開的回退錯誤（regressions）。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989200">Bug 1989200</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>處理 WebExtensions 儲存問題，避免 Firefox 在安裝特定擴充套件時啟動時當機。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989840">Bug 1989840</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正從安裝後的提示打開擴充套件的「套件設定」時，可能導致「自訂工具列」與部分快捷鍵在重新啟動前失效。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1983869">Bug 1983869</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>降低在封鎖 UDP 的網路環境下，載入特定網站時的長時間延遲。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1980812">Bug 1980812</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項穩定性與<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2025-80">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20143&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox143&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla143&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
