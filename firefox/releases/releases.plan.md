@@ -9,6 +9,18 @@
 - 在 `firefox/releases/{xxx.x}/` 新增 `index.shtml`，不用建立 `index.html`。
 - 依過去版本 `./index.shtml` 的結構與標籤樣式撰寫，包含：`fx_head-sandstone.shtml`/`fx_tail-sandstone.shtml` 引入、`<article id="whatsnew">`、兩個 `<ul class="tags">` 區段、結尾完整變更清單與前一版本連結區塊、社群貢獻者清單。
 - 社群貢獻者清單中的 bug 編號需加上可點擊的 Bugzilla 連結（`https://bugzilla.mozilla.org/<bug>`）。
+- **重要：連結處理原則**
+  - **必須參考原始 release notes 網頁中的連結，不要自己添加或修改**
+  - 站內連結（如 `/path`）不使用 `target="_blank"`
+  - 外部連結（如 `https://`）必須使用 `target="_blank"`
+  - 功能名稱、API、技術術語應連結到對應的 MDN 或官方文件
+  - 常見需要加連結的項目：
+    - Firefox 功能：連結到 SUMO 說明頁面
+    - Web API：連結到 MDN 文件
+    - CSS 屬性：連結到 MDN CSS 參考
+    - JavaScript 方法：連結到 MDN JavaScript 參考
+    - 技術提案：連結到 GitHub 或 W3C 規格
+    - 安全性修正：連結到 Mozilla 安全公告
 - 若官方段落包含示意圖：請下載圖片至 `firefox/releases/{xxx.x}/`，沿用清楚且可辨識的檔名（例如：`{xxx}_<slug>.png`），並在對應的 `<li>` 描述文字之後加入：`<p><img src="/firefox/releases/{xxx.x}/{filename}" alt="{圖說（繁中）}"></p>`。
  - 若官方標示為逐步釋出（progressive roll out），請在該 `<li>` 下加入一段 `p.progressive-roll` 說明，並移除原文括號註記。
 - 同步更新版號與首頁新聞：
@@ -62,6 +74,7 @@
 - [ ] 建立 `firefox/releases/{xxx.x}/index.shtml` 檔案（無 index.html）
 - [ ] 設定 release_date={release_date}, version={xxx.x}, previous_version={previous_version}
 - [ ] 撰寫全新功能/修正/企業版/開發者/網路平台段落（繁中）
+- [ ] **檢查並添加所有必要的連結**（必須參考原始 release notes 網頁中的連結，不要自己添加）
 - [ ] 加入社群貢獻者名單（依來源頁）
 - [ ] 社群貢獻者 bug 編號加上 Bugzilla 連結
 - [ ] 若段落含示意圖：下載圖片到該版本目錄並插入 `<img>` 標記

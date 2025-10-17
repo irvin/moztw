@@ -1,0 +1,225 @@
+<!--#set var="release_date" value="2025-10-14" -->
+<!--#set var="version" value="144.0" -->
+<!--#set var="previous_version" value="143.0.4" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/144.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在分頁群組中專注單一分頁，避免雜亂。你的活動分頁現在會在分頁列中保持可見狀態，即使群組收合時也能保持整齊。</p>
+      <p><img src="/firefox/releases/144.0/144_tab_focus.png" alt="螢幕截圖：顯示分頁群組中的分頁焦點功能"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>我們很高興的分享另一個社群最期待的分頁群組新功能！現在你可以將分頁拖曳到已收合的群組中，不會因此自動展開群組。這樣能快速整理乾淨，同時最小化視覺干擾。</p>
+      <p>
+        <video src="/firefox/releases/144.0/144_Movetabgroup.mp4" width="800" autoplay="true" loop="true">MoveTabCollapsedGroup</video>
+      </p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a href="https://support.mozilla.org/kb/profile-management" target="_blank">設定檔管理</a>功能將在未來幾週逐步向全球使用者推出。透過將你的線上生活分離成不同的設定檔，這個功能將幫助你保護隱私並保持專注，例如區分工作、學校、假期規劃或其他用途。你可以為設定檔命名、自訂圖示和色彩主題，以便輕鬆識別。快速在設定檔之間切換，以完全隔離書籤、分頁和瀏覽歷史。設定檔管理功能適用於 Windows 11、Mac 和 Linux 使用者，Windows 10 支援將於稍後推出。</p>
+      <p><img src="/firefox/releases/144.0/144_profile_mgmt.png" alt="螢幕截圖：顯示個人檔案管理介面"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可以在不暫停影片的情況下關閉<a href="https://support.mozilla.org/kb/about-picture-picture-firefox" target="_blank">子母畫面</a>。按住<code>Shift + 點擊</code> 關閉按鈕，或使用 <code>Shift + Esc</code> 退出子母畫面，同時保持播放狀態。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>儲存在 <a href="https://support.mozilla.org/kb/manage-your-logins-firefox-password-manager" target="_blank">Firefox 密碼管理員</a>中的登入資訊，現在以更現代化的加密方案（AES-256-CBC）加密儲存於磁碟中，取代較舊的 3DES-CBC。此更新改善本地資料保護。透過 Firefox 同步的登入資訊，則早已使用 AES-256-GCM，並維持端對端加密。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><strong>由 Google 智慧鏡頭支援的視覺搜尋</strong></p>
+      <p>在任何圖片上點擊右鍵，你就可以：<br>
+      ✨ 尋找類似產品、地點或物件<br>
+      ✨ 複製、翻譯或搜尋圖片中的文字<br>
+      ✨ 獲得學習、旅行或購物的靈感</p>
+      <p>在你的右鍵選單中尋找新的「<strong>使用 Google Lens 搜尋圖片</strong>」選項（會先以 <strong>NEW</strong> 徽章標示）。</p>
+      <p>這是一個在全球範圍推出，<strong>僅限桌面版的功能</strong>。你必須<strong>預設搜尋引擎為 Google</strong> 以使用。</p>
+      <p><img src="/firefox/releases/144.0/144_lens.png" alt="螢幕截圖：顯示 Google Lens 視覺搜尋功能"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><strong>內建於 Firefox 中的 Perplexity AI 搜尋</strong></p>
+      <p>Firefox 桌面版現在內建 <strong>Perplexity</strong>，瀏覽器中的 AI 驅動問答引擎。Perplexity 為複雜問題提供直接、對話式的回答，幫助你進行快速摘要、尋找精準的參考資料或創意靈感，無需挖掘多重來源。你可從網址列透過統一搜尋按鈕使用，此功能在全球範圍推出。</p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>翻譯現在支援以下語言：
+        <ul>
+          <li>亞塞拜然語</li>
+          <li>孟加拉語</li>
+          <li>冰島語</li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2025-81">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>已增強下列語言的翻譯品質：
+        <ul>
+          <li>阿拉伯語</li>
+          <li>保加利亞語</li>
+          <li>加泰隆語</li>
+          <li>簡體中文</li>
+          <li>捷克語</li>
+          <li>荷蘭語</li>
+          <li>愛沙尼亞語</li>
+          <li>芬蘭語</li>
+          <li>法語</li>
+          <li>德語</li>
+          <li>匈牙利語</li>
+          <li>義大利語</li>
+          <li>日語</li>
+          <li>葡萄牙語</li>
+          <li>波斯語</li>
+          <li>西班牙語</li>
+          <li>烏克蘭語</li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>在 Windows 上，當從其他應用程式開啟連結時，Firefox 會使用目前虛擬桌面上的視窗，或在需要時開新視窗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-144-release-notes">Firefox 144 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/144">Firefox 144 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>現在可以從樣式規則中的 <code>var()</code> 函數跳轉到 CSS 自訂屬性（CSS custom property）的定義。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>檢測器中的事件工具提示（event tooltip）現在會在自訂事件旁邊顯示徽章，讓它們更容易與內建事件區分。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a href="https://developer.mozilla.org/docs/Web/API/Element/moveBefore" target="_blank">Element.moveBefore</a> API。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <code>math-shift</code> <a href="https://developer.mozilla.org/docs/Web/CSS/math-shift#compact" target="_blank">compact</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/interactionId" target="_blank">PerformanceEventTiming.interactionId</a>，允許開發者將相關的輸入事件分組。此功能提供<a href="https://developer.mozilla.org/docs/Glossary/Interaction_to_next_paint" target="_blank">互動到下一個繪製</a>（INP）回應指標支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <code>command</code> 和 <code>commandfor</code> 屬性。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a href="https://developer.mozilla.org/docs/Web/API/View_Transition_API" target="_blank">View Transitions</a> API Level 1。View Transitions API 提供機制輕鬆在不同網站視圖（views）間建立轉換動畫。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>當使用 WebRender 硬體渲染 <a href="https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient" target="_blank">linear-gradient</a>、<a href="https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient" target="_blank">conic-gradient</a> 和 <a href="https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient" target="_blank">radial-gradient</a> 時，現在會套用抖色（dithering）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a href="https://github.com/tc39/proposal-upsert" target="_blank">upsert 提案</a>。這為 <code>Map</code> 和 <code>WeakMap</code> 新增了 <code>getOrInsert</code> 和 <code>getOrInsertComputed</code> 方法，可直接回傳與鍵關聯的值，或者先插入後回傳預設值，簡化不知道特定 Key 是否已存在 <code>Map</code> 或 <code>WeakMap</code> 的操作。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在在 Windows 平板和 Android 裝置上支援 <a href="https://developer.mozilla.org/docs/Web/API/ScreenOrientation" target="_blank">ScreenOrientation</a> 介面的 <code>lock()</code> 和 <code>unlock()</code> 方法。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a href="https://developer.mozilla.org/docs/Web/API/RTCDataChannel" target="_blank">RTCDataChannel</a> 以 <a href="https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects" target="_blank">worker transfer</a> 傳遞。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <code>resizeMode</code> 的 <a href="https://developer.mozilla.org/docs/Web/API/MediaDevices/getUserMedia" target="_blank">getUserMedia</a> 對象，讓開發者可裁剪和縮放攝影機擷取的影片到指定的任何解析度。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在在 Windows 上支援 <a href="https://developer.mozilla.org/docs/Web/API/WebGPU_API" target="_blank">WebGPU</a> 的 <a href="https://developer.mozilla.org/docs/Web/API/GPUDevice/importExternalTexture" target="_blank">GPUDevice.importExternalTexture API</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>在 Windows 上 <a href="https://developer.mozilla.org/docs/Web/API/WebCodecs_API" target="_blank">WebCodecs</a> 現在為 VideoEncoder 提供批次編碼路徑。由於預設批次大小更大，可改善效能、提供更高的吞吐量，以及更低的提交延遲。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Gecko 專有的 <code>CSS2Properties</code> 改名為 <code>CSSStyleProperties</code>，以符合最新的網頁標準，並與其他瀏覽器引擎有更好的互操作性。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20144&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox144&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla144&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 144 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中 12 位是全新的志工！請一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Alice Boxhall: <a href="https://bugzilla.mozilla.org/1981341">1981341</a></li>
+    <li>David [:david-loe]: <a href="https://bugzilla.mozilla.org/1726108">1726108</a></li>
+    <li>Diogo Sousa: <a href="https://bugzilla.mozilla.org/1987258">1987258</a></li>
+    <li>fdangers: <a href="https://bugzilla.mozilla.org/1975105">1975105</a></li>
+    <li>jocelyne.ah1: <a href="https://bugzilla.mozilla.org/1980995">1980995</a></li>
+    <li>Josh Berry: <a href="https://bugzilla.mozilla.org/1984553">1984553</a></li>
+    <li>Kyle Huey [:khuey]: <a href="https://bugzilla.mozilla.org/1983994">1983994</a></li>
+    <li>Martin Bruse: <a href="https://bugzilla.mozilla.org/1987128">1987128</a></li>
+    <li>Mountain Dude: <a href="https://bugzilla.mozilla.org/1984695">1984695</a></li>
+    <li>parisoplop: <a href="https://bugzilla.mozilla.org/1984782">1984782</a></li>
+    <li>Riz: <a href="https://bugzilla.mozilla.org/1280266">1280266</a></li>
+    <li>s175911: <a href="https://bugzilla.mozilla.org/1985163">1985163</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
