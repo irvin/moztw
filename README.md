@@ -30,50 +30,24 @@ please fork and checkout as you need.
 2. Make a fork of this repo and clone to your working space (See steps in next section)
 3. Go to your cloned repository, create a new branch with meaningful name, e.g. `git checkout -b issue123-fix-something`
 4. Make changes, test, and commit. Be sure to mention the issue id in the commit message.
-5. File a pull request to **master** branch (or create a new branch if you need to collaborate with someone else). direct PRs to `production` branch will be rejected.
+5. File a pull request to **moztw.pages.dev** branch (or create a new branch if you need to collaborate with someone else). direct PRs to `gh-pages` branch will be rejected.
 6. Someone will review the request, you may ping moztw-general@googlegroups.com if there's no progress after a while.
-7. The content will go live at [www-stage](http://www-stage.moztw.org) once the PR is accepted, and will go live at [production site](http://moztw.org) when ready.
+7. The content will go live at [moztw.pages.dev](http://moztw.pages.dev) once the PR is accepted, and will merged to gh-pages branch and go live at [production site](http://moztw.org) when ready.
 
 ## Development
 You can do shallow clone to get this repo more quickly.
 
 `git clone https://github.com/moztw/www.moztw.org.git --depth 1`
 
-<!--
-### Using Vagrant
-1. Make sure you have `git` available in your computer. If you are not sure, you can go to [Git website](http://git-scm.com/download) to download.
-2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) onto your system.
-3. Open Terminal. On Windows, open **Git Bash** instead.
-4. Execute `cd [desired directory]` to get to the folder you want to keep the file.
-5. Run `git clone https://github.com/moztw/www.moztw.org.git` to clone the repository.
-6. Run `cd www.moztw.org`.
-7. Run `vagrant up`.
-   This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
-8. Run `vagrant exec npm start`.
-   You will see the output will stay at `Watching files`.
-9. Open a web browser, go to `localhost:3000` and you can see the current website.
-   You can modify the website contents and the changes will be reflected in seconds.
-10. To stop the script, go back to the terminal and hit Ctrl-C.
-   Also if you want to stop the virtual machine running, run `vagrant halt`.
--->
-
-### Using Node.js directly
 1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
    * On Windows, you also need `Microsoft Visual C++ Redistributable Package`.
    * On Ubuntu/Debian, you also need `nodejs-legacy` package.
 2. Run `npm install` in repo directory.
 3. Run `npm start` in repo directory, the output will stay at `Watching files`.
 4. Open `localhost:3000`, modify html and [browsersync](http://browsersync.io/) will reload the preview page.
+5. Run `npm run build` to build the static results before you commit to moztw.pages.dev branch.
 
-### Using Docker Compose
-1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-   * On Ubuntu/Debian, you may install `docker-ce` and `docker-compose-plugin` instead by running `sudo apt install docker-ce docker-compose-plugin`.
-2. (optional) Edit `./docker-compose.yml` if you need to change listen port. Default: `8080`
-3. (optional) Edit `./docker-apache.conf` if you need to change configurations for `httpd`.
-4. Run `docker compose up -d` in repo directory to build and run the container.
-5. Open http://localhost:8080 in your browser.
-6. Run `docker compose down` in repo directory to remove the container.
-
+<!--
 ## Static Pages Local Installation
 
 It's easy to set up static pages including home page, event pages, contribution pages, etc.
@@ -134,6 +108,7 @@ Note that we're not running Nginx server on the hosting site, you might encounte
 ### PHP
 
 PHP is only required for GitHub Webhook and Online Update mechanisms to work. Only tested with PHP 7.1, with cURL extension required to call GitHub API for hook source range verification.
+-->
 
 ## Coding Style
 * Please always use LF on line ending, and set 2/4 space characters as indent according to the original style of each files.
