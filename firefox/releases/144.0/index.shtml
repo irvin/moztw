@@ -21,7 +21,7 @@
       <span class="tag tag-new">全新功能</span>
       <p>我們很高興的分享另一個社群最期待的分頁群組新功能！現在你可以將分頁拖曳到已收合的群組中，不會因此自動展開群組。這樣能快速整理乾淨，同時最小化視覺干擾。</p>
       <p>
-        <video src="/firefox/releases/144.0/144_Movetabgroup.mp4" width="800" autoplay="true" loop="true">MoveTabCollapsedGroup</video>
+        <video src="/firefox/releases/144.0/144_Movetabgroup.mp4" width="800" autoplay="true" loop="true" playsinline>MoveTabCollapsedGroup</video>
       </p>
     </li>
 
