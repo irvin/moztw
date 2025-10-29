@@ -1,0 +1,68 @@
+<!--#set var="release_date" value="2025-10-28" -->
+<!--#set var="version" value="144.0.2" -->
+<!--#set var="previous_version" value="144.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/144.0.2/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 <code>about:settings</code> 中可用語言的清單多於已下載或目前支援的語言。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1994642">Bug 1994642</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正使用鍵盤開啟統一搜尋網址列選單（Unified Search dropdown）的不一致問題，選單現在能正確展開，讓使用者可使用鍵盤選擇搜尋引擎。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1979826">Bug 1979826</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Microsoft OneDrive Photos，「For You」頁面上策展照片集合無法載入，顯示成灰色畫面而非內容。現在集合會如預期顯示了。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1986533">Bug 1986533</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正安裝 Avast 或其他安全軟體的 Windows 使用者啟動時當機。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1992678">Bug 1992678</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 上切換應用程式後，emoji 選擇器快捷鍵和選單項目失效。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1980815">Bug 1980815</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 上從 Firefox 拖曳圖片到第三方應用程式（如預覽程式），可能失敗或行為異常。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1995345">Bug 1995345</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 26 (Tahoe) 上，系統處於高負載時，可能發生的效能和影片播放問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1995638">Bug 1995638</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 26 (Tahoe) 上，當書籤資料夾包含循環或自我引用時，可能導致瀏覽器當掉。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1995621">Bug 1995621</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2025-86">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20144&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox144&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla144&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
