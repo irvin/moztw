@@ -1,0 +1,173 @@
+<!--#set var="release_date" value="2025-11-11" -->
+<!--#set var="version" value="145.0" -->
+<!--#set var="previous_version" value="144.0.2" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/145.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/view-pdf-files-firefox-or-choose-another-viewer#w_comment-in-pdf-files">新增、編輯和刪除註解</a>，在 PDF 中建立自己的筆記（摘要、問題、任務等）。註解側邊欄可協助你瀏覽所有註解並快速跳轉，對於長篇或大量標記的 PDF 特別實用。</p>
+      <p><img src="/firefox/releases/145.0/145_pdf_comments.png" alt="螢幕截圖：Firefox PDF 檢視器中的新增註解功能與註解側邊欄"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>此版本引入<a target="_blank" href="https://blog.mozilla.org/en/firefox/fingerprinting-protections/">全新世代隱私保護</a>，奠基於我們在減少瀏覽器指紋的相關研究基礎。新防護機制將被判斷為獨一無二的用戶百分比幾乎減半，確保在隱私瀏覽或 <em>增強型追蹤保護</em> 設為 <em>嚴格</em> 時，能提供更安全、更隱密的瀏覽體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>需要提醒你分頁群組中有哪些分頁嗎？將滑鼠懸停在分頁群組名稱上，即可預覽其中的分頁，無需實際點開群組。</p>
+      <p><video src="/firefox/releases/145.0/145_tab_hover_preview.mp4" width="800" autoplay="true" loop="true" playsinline>分頁群組懸停預覽示範影片</video></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在無需開啟新分頁或視窗，即可直接從側邊欄存取和管理已儲存的密碼。停留在當前頁面，更快取得登入資訊。</p>
+      <p><img src="/firefox/releases/145.0/145_sidebar_setting.png" alt="螢幕截圖：側邊欄設定面板，可啟動密碼功能"></p>
+      <p><img src="/firefox/releases/145.0/145_passwords_sidebar.png" alt="螢幕截圖：側邊欄中的密碼管理功能"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>「複製選擇範圍的連結」功能，讓使用者可以透過右鍵選單，複製選取文字的對應連結，<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Fragment/Text_fragments#:~:text=link%20directly%20to%20specific%20text%20in%20a%20web%20page">與他人分享頁面的任意區段</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在翻譯不同書寫方向的語言時，翻譯功能的使用體驗有所改進。</p>
+      <p><video src="/firefox/releases/145.0/145_translations.mp4" width="800" autoplay="true" loop="true" playsinline>翻譯改進示範影片</video></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>桌面版新分頁現在提供新的品牌風格桌布，包含淺色和深色模式版本。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>透過新的「將應用程式開啟的分頁，開啟於目前瀏覽分頁旁」設定，你可以讓來自其他應用程式的連結，開啟在活動分頁旁邊、而非分頁列的末端。</p>
+      <p><img src="/firefox/releases/145.0/145_open_link_next.png" alt="螢幕截圖：偏好設定中的「從應用程式開啟的分頁」選項"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>增強型彈跳追蹤保護（Enhanced Bounce Tracking Protection）的無狀態模式，現已在 <a target="_blank" href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">ETP 嚴格模式</a> 中預設啟用，可阻擋更多基於重新導向的進階追蹤技術。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>對於大多數 Windows 使用者，現有的 Firefox 桌面捷徑已更換成桌面啟動器。這是一個用來啟動已安裝的 Firefox 的小型程式。如果 Firefox 尚未安裝，則會提示使用者安裝 Firefox。對於拿到新 Windows 裝置的 Firefox 使用者，這可以提供簡易的安裝點，因桌面啟動器程式可能已透過 OneDrive 或其他雲端硬碟同步到桌面。<a target="_blank" href="https://support.mozilla.org/kb/firefox-desktop-launcher">深入瞭解</a>。</p>
+      <p><img src="/firefox/releases/145.0/145_desktop_exe.png" alt="螢幕截圖：新的 Firefox 桌面啟動器圖示"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2025-87/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>Firefox <a target="_blank" href="https://blog.mozilla.org/futurereleases/2025/09/05/firefox-32-bit-linux-support-to-end-in-2026/">不再支援 32 位元 Linux 系統</a>。我們建議安裝 64 位元版本以繼續獲得更新和支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>水平分頁現在稍微更圓潤，以符合垂直分頁的外觀。按鈕和文字框（包括網址列）也已同時更新，以保持一致。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>當未安裝擴充套件時，點擊擴充套件按鈕現在會顯示訊息，強調擴充套件如何增強你的瀏覽體驗，並提供 Firefox 附加元件網站的連結。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>本地翻譯模型現在使用 <a target="_blank" href="https://en.wikipedia.org/wiki/Zstd">Zstandard</a> 壓縮，減少下載容量和裝置儲存空間。一如既往，所有 Firefox 翻譯都在你的本地裝置上安全且私密地進行，與其他使用雲端服務翻譯的瀏覽器不同。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>我們更新了預設自動化偏好設定，以更好地支援代理瀏覽（Agentic browsing），減少機器人完成任務所需的步驟，並降低機器人卡住的機會。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-145-release-notes">Firefox 145 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/145">Firefox 145 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Microsoft UI Automation 分階段推出已達 100%。Microsoft UI Automation 是 Windows 新的協助工具框架。這將為 Windows 上的現有和未來的協助技術，提供更好的支援和效能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增對 <code>Atomics.waitAsync</code> 提案的支援，這是 <code>Atomics.wait</code> 的非阻擋、非同步版本。這允許基於共享記憶體位置中的值進行執行緒同步，更多詳細資訊請參閱 <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics/waitAsync">MDN 文件</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援新的<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy"><code>Integrity-Policy</code></a> 檔頭，用於強制執行腳本的子資源完整性。此檔頭的進一步實作正在進行中。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增常用編碼器的 Matroska 支援：AVC、HEVC、VP8、VP9、AV1、AAC、Opus 和 Vorbis。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在支援 <a target="_blank" href="https://drafts.csswg.org/css-text-4/#text-autospace-property">text-autospace</a> 屬性，允許在不同書寫系統的字元之間自動調整間距。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>WebGPU DOM API（<a target="_blank" href="https://www.w3.org/TR/webgpu/">規格</a>／<a target="_blank" href="https://developer.mozilla.org/docs/Web/API/WebGPU_API">MDN</a>）在 Apple Silicon 的 macOS 26 (Tahoe) 上現已可用。詳細資訊請參閱 <a target="_blank" href="https://mozillagfx.wordpress.com/">Mozilla Graphics Team Blog</a>。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>在 Windows 上，當 Firefox 在次螢幕上最大化時，在螢幕最頂端點擊分頁可能無法運作。我們正在努力在未來的版本中修正此問題。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20145&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox145&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla145&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 145 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中 5 位是全新的志工！請一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Alex Hill: <a href="https://bugzilla.mozilla.org/627771">627771</a></li>
+    <li>Khalid AlHaddad: <a href="https://bugzilla.mozilla.org/1882718">1882718</a>, <a href="https://bugzilla.mozilla.org/1975161">1975161</a></li>
+    <li>Kyler Riggs [:kylr]: <a href="https://bugzilla.mozilla.org/1955241">1955241</a>, <a href="https://bugzilla.mozilla.org/1974265">1974265</a></li>
+    <li>Mag Mukendi: <a href="https://bugzilla.mozilla.org/1982207">1982207</a></li>
+    <li>Mateo Mihm: <a href="https://bugzilla.mozilla.org/1957059">1957059</a></li>
+    <li>Tatsunori Uchino: <a href="https://bugzilla.mozilla.org/1950321">1950321</a></li>
+    <li>Vlad L: <a href="https://bugzilla.mozilla.org/1881524">1881524</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

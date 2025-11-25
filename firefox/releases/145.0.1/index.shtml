@@ -29,12 +29,14 @@
       <span class="tag tag-fixed">修正</span>
       <p>修正 Web Developer Tools 中無法複製或儲存所有 requests 為 HAR 的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1995694">Bug 1995694</a>）</p>
     </li>
+  </ul>
 
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
     <li>
       <span class="tag tag-unresolved">尚待修復</span>
-      <p>在 Windows 上，當在次螢幕上最大化 Firefox 時，在螢幕最頂端的分頁點擊可能無法運作。我們正在修正此問題，並將在後續版本發布。</p>
+      <p>在 Windows 上，當 Firefox 在次螢幕上最大化時，在螢幕最頂端點擊分頁可能無法運作。我們正在努力在未來的版本中修正此問題。</p>
     </li>
-
   </ul>
 
   <ul class="tags">
