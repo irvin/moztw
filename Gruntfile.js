@@ -72,12 +72,25 @@ module.exports = function(grunt) {
 	grunt.registerTask('ssi', 'Flatten SSI includes in your HTML files.', function() {
 
 		var ssi = require( 'ssi' )
+		, fs = require('fs')
 		, opts = this.options()
 		, files = new ssi( opts.input, opts.output, opts.matcher )
 		;
 
 		files.compile();
 
+		// Trim all compiled HTML files (使用 grunt 內建的 file.expand)
+		grunt.file.expand({
+			filter: 'isFile'
+		}, ['**/*.html', '!node_modules/**', '!inc/**']).forEach(function(file) {
+			var content = fs.readFileSync(file, 'utf8');
+			var trimmed = content
+				.replace(/^(\r?\n){2,}/, '')       // 移除開頭兩個以上的換行
+				.replace(/(\r?\n){3,}$/, '\n\n');  // 移除結尾三個以上的換行
+			if (content !== trimmed) {
+				fs.writeFileSync(file, trimmed);
+			}
+		});
 	});
 	//grunt.registerTask('default', ['copy', 'ssi', 'browserSync', 'watch']);
 	grunt.registerTask('default', ['browserSync']);
