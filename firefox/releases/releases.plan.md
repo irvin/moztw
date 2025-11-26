@@ -46,7 +46,7 @@
     - 依來源頁所列完整名單與 Bug 編號呈現，並將編號連到 Bugzilla。
 - 結尾區塊「完整變更清單」：
   - Bugzilla 查詢更新為 {xxx}：`v3=Firefox {xxx}` / `v1=mozilla{xxx}`，並維持 `cf_status_firefox{xxx}` 與 `fixed,verified` 條件。
-  - 「前一個版本」連到 `/firefox/releases/{previous_version}/`。
+  - 「前一個版本」連到 `/firefox/releases/{previous_version}/`，並使用 `<!--#echo var="previous_version" -->` 顯示版本號。例如：`<!--#echo var="previous_version" --> 版本的更新`。
 
 ### 重要片段（示意）
 
