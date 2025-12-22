@@ -1,0 +1,71 @@
+<!--#set var="release_date" value="2025-12-18" -->
+<!--#set var="version" value="146.0.1" -->
+<!--#set var="previous_version" value="146.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/146.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>改善整體穩定性，修正與瀏覽、繪圖與無障礙功能相關的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2001160">Bug 2001160</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1998185">Bug 1998185</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1998188">Bug 1998188</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正指紋防護導致熱門網站字型渲染錯誤。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2000429">Bug 2000429</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正與媒體播放以及 GMP process 關閉相關的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2002697">Bug 2002697</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正改變複製設定檔設定時，桌面設定檔捷徑會被意外移除的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1998209">Bug 1998209</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>在使用垂直分頁與特定佈景主題時，改善側邊欄文字的對比度。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2006091">Bug 2006091</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正從備份還原時，還原成功的訊息會改為顯示在新分頁上，以避免被還原的分頁取消顯示。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003307">Bug 2003307</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-98/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>若需瞭解此版本之前的變更，請參考 <a href="/firefox/releases/146.0/">Firefox 146.0 版本資訊</a>。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p><s>在 Windows 上，當 Firefox 在次螢幕上最大化時，在螢幕最頂端點擊分頁可能無法運作。我們正在努力在未來的版本中修正此問題。</s>（已在 147.0 修正）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20146&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox146&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla146&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'><!--#echo var="previous_version" --> 版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
