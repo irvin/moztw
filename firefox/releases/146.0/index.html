@@ -1,4 +1,4 @@
-<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/146.0.1/releasenotes/ -->
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/146.0/releasenotes/ -->
 
 <!DOCTYPE html>
 <html class="os-windows no-js" lang="zh-TW">
@@ -18,14 +18,14 @@
   <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
 
 
-<meta name="description" content="Firefox 版本資訊 2025 年 12 月 18 日 v146.0.1 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。" />
+<meta name="description" content="Firefox 版本資訊 2025 年 12 月 9 日 v146.0 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。" />
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MozTW">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:url" content="https://moztw.org/firefox/releases/">
 <meta property="og:image" content="http://moztw.org/images/page-image-quantum.png">
-<meta property="og:title" content="Mozilla Firefox 版本資訊 (146.0.1)">
-<meta property="og:description" content="Firefox 版本資訊 2025 年 12 月 18 日 v146.0.1 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。">
+<meta property="og:title" content="Mozilla Firefox 版本資訊 (146.0)">
+<meta property="og:description" content="Firefox 版本資訊 2025 年 12 月 9 日 v146.0 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。">
 <meta property="fb:page_id" content="109362359103769">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@moztw">
@@ -33,7 +33,7 @@
 <meta name="twitter:app:name:googleplay" content="Firefox">
 <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
 
-<title>Mozilla Firefox v146.0.1 版本資訊</title>
+<title>Mozilla Firefox v146.0 版本資訊</title>
 
 <link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
 <link href="/thunderbird/css/features.css" rel="stylesheet" />
@@ -91,14 +91,14 @@
 <section class="container block firefox" id="releasenotes">
 	<article class="module">
 		<div class="intro">
-			<h2>Firefox 146.0.1 版本資訊</h2>
+			<h2>Firefox 146.0 版本資訊</h2>
 			<p id="release-date">
-        <time datetime='2025-12-18'>
+        <time datetime='2025-12-09'>
           2025 年
           12 月
-          18 日
+          9 日
 				</time>
-				v146.0.1
+				v146.0
 			</p>
 			<p>此頁面包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 			<p>我們想知道您對 Firefox 的想法。歡迎到 Mozilla Discourse 上的 <a href="https://discourse.mozilla.org/c/firefox-development/178" target="_blank">Firefox Development</a> 英文討論區，或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
@@ -217,45 +217,119 @@
 
   <h2>Firefox 新鮮事</h2>
   <ul class="tags">
+
     <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>改善整體穩定性，修正與瀏覽、繪圖與無障礙功能相關的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2001160">Bug 2001160</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1998185">Bug 1998185</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1998188">Bug 1998188</a>）</p>
+      <span class="tag tag-new">全新功能</span>
+      <p>Windows 10 使用者現在可以在 Firefox 中開啟備份功能，自動保護密碼、書籤等瀏覽資料。你的瀏覽資料會逐日儲存在本機裝置上，並可透過密碼加密。在新裝置或同一台電腦上（任何作業系統）安裝全新的 Firefox 時，都可以從這個備份還原，接續先前的瀏覽進度。此功能目前在 Windows 裝置上提供，將陸續擴展到其他作業系統。</p>
+      <p><img src="/firefox/releases/146.0/Fx146_Backup_Image.png" alt="螢幕截圖：Firefox Windows 備份功能介面"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>macOS 使用者現在已預設有啟用專用的 GPU 行程，涵蓋 WebGPU、WebGL 與 Firefox 自家的 WebRender。當繪圖程式碼中發生致命錯誤時，不再會導致整個瀏覽器當掉，而會無感地重新啟動 GPU 行程。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/firefox-labs-explore-experimental-features-firefox">Firefox Labs</a> 現在對所有桌面版使用者開放，不論你是否選擇參與研究或回傳遙測資料。更多實驗性功能將能夠提供給更多人試用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>使用者現在可以跳過搜尋結果頁，在網址列輸入時直接看到結果，讓瀏覽變得更快速、單純。</p>
+      <p><img src="/firefox/releases/146.0/146_search_suggestion.png" alt="螢幕截圖：在網址列輸入時直接顯示搜尋結果的示意畫面"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在歐盟及部分其他國家的使用者，現在會看到新分頁天氣功能的選擇啟用流程，可決定是否啟用位置偵測，或手動搜尋位置。</p>
+      <p><img src="/firefox/releases/146.0/146_newtab_weather.png" alt="螢幕截圖：新分頁天氣功能的啟用與位置選擇流程"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在在 Linux（Wayland）上原生支援非整數縮放（fractional scaling）顯示，讓畫面顯示更有效率。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>對使用英文版 Firefox、地區為法國、德國與義大利的使用者，網址列現在會顯示關於節日與重要日期的英文建議。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正指紋防護導致熱門網站字型渲染錯誤。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2000429">Bug 2000429</a>）</p>
+      <p><code>&lt;input type="time"&gt;</code> 與 <code>&lt;input type="datetime-local"&gt;</code> 的時間選擇器，現在提供完整的鍵盤與協助工具支援；同時也改進在「減少動態效果」偏好設定下，時間微調按鈕的行為。Firefox 無障礙團隊期望，讓內建時間選擇器更容易存取，能鼓勵網站更廣泛採用瀏覽器提供的日期與時間輸入元件，減少客製控制元件的需求，也改善所有使用者的易用性。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正與媒體播放以及 GMP process 關閉相關的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2002697">Bug 2002697</a>）</p>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-92/">安全性修正</a>。</p>
     </li>
 
     <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>修正改變複製設定檔設定時，桌面設定檔捷徑會被意外移除的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1998209">Bug 1998209</a>）</p>
+      <span class="tag tag-changed">變更</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/change-fonts-and-colors-websites-use">偏好設定中「管理色彩」對話框</a>現在採用更清楚的色彩選擇控制元件，讓每個色塊樣本與其標籤緊鄰顯示。這讓在使用強制色彩配置、客製預設文字、連結與頁面背景顏色時，無論是否搭配螢幕放大工具，都更容易理解與調整。</p>
+      <p><img src="/firefox/releases/146.0/146_color_settings.png" alt="螢幕截圖：設定中「顏色」對話框與新的色彩選擇介面"></p>
     </li>
 
     <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>在使用垂直分頁與特定佈景主題時，改善側邊欄文字的對比度。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2006091">Bug 2006091</a>）</p>
+      <span class="tag tag-changed">變更</span>
+      <p>Firefox 已移除在 Windows 上對 Direct2D 的支援。若仍需要 Direct2D 支援，請改用 ESR 140.0 或更新版本。</p>
     </li>
 
     <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>修正從備份還原時，還原成功的訊息會改為顯示在新分頁上，以避免被還原的分頁取消顯示。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003307">Bug 2003307</a>）</p>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-146-release-notes">Firefox 146 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
     </li>
 
     <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>多項<a target="_blank" href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-98/">安全性修正</a>。</p>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/146">Firefox 146 開發者資訊</a></p>
     </li>
 
     <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>若需瞭解此版本之前的變更，請參考 <a href="/firefox/releases/146.0/">Firefox 146.0 版本資訊</a>。</p>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Firefox 現在在 WebRTC 中支援 ML-KEM，會在 DTLS 1.3 握手時送出後量子（post-quantum, PQ）金鑰分享。ML-KEM 是一種被認為能抵抗大型量子電腦攻擊的下一代公開金鑰密碼系統。</p>
     </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Firefox 現在在 WebCrypto 中支援壓縮的橢圓曲線點格式，可將公開金鑰的大小幾乎減半，節省頻寬與儲存空間，同時仍能數學上還原完整座標。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>已更新 Skia 繪圖函式庫，以改進繪圖效能與相容性。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>樣式面板（Rule view）中未使用的 CSS 自訂屬性現在預設隱藏，減少視覺雜訊，並在部分情況下加快檢測器面板的繪製速度。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/@scope">@scope</a> 規則，讓作者可以將樣式限制在 DOM 的某個子樹中，避免必須撰寫過度具體的選擇器。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 CSS <code>contrast-color()</code> 函式，可傳入一個色彩值並回傳對比色。目前<a target="_blank" href="https://www.w3.org/TR/css-color-5/#contrast-color">規格</a>將對比色限制為黑或白，這項限制預期未來會被移除。（<a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/color_value/contrast-color">瞭解更多</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增對 <a target="_blank" href="https://drafts.csswg.org/css-text-decor-4/#text-decoration-inset-property">text-decoration-inset</a> 屬性的支援，讓作者可以調整文字裝飾線的起點與終點位置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援將傳統的 <code>-webkit-fill-available</code> 關鍵字用在 CSS <code>width</code> 與 <code>height</code> 屬性上，改善使用此值的網站之版面呈現。此關鍵字是近期標準化、尚未在 Firefox 啟用的 <code>stretch</code> 關鍵字別名。</p>
+    </li>
+
   </ul>
 
   <h3 id="knownissues">已知問題</h3>
@@ -269,8 +343,31 @@
   <ul class="tags">
     <li class="complete">
       請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20146&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox146&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla146&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
-      你可能也想瞭解<a href='/firefox/releases/146.0/'>146.0 版本的更新</a>。
+      你可能也想瞭解<a href='/firefox/releases/145.0.2/'>145.0.2 版本的更新</a>。
     </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 146 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 16 位是全新的志工！請一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Alex Johnson: <a href="https://bugzilla.mozilla.org/1924339">1924339</a></li>
+    <li>Apurva: <a href="https://bugzilla.mozilla.org/1973318">1973318</a></li>
+    <li>Cornelius Emase: <a href="https://bugzilla.mozilla.org/1913086">1913086</a>，<a href="https://bugzilla.mozilla.org/1977921">1977921</a>，<a href="https://bugzilla.mozilla.org/1996578">1996578</a>，<a href="https://bugzilla.mozilla.org/1996859">1996859</a>，<a href="https://bugzilla.mozilla.org/1998012">1998012</a></li>
+    <li>Ethan Gallucci: <a href="https://bugzilla.mozilla.org/1991983">1991983</a></li>
+    <li>gopi: <a href="https://bugzilla.mozilla.org/1940198">1940198</a></li>
+    <li>Jeffrey Houghton: <a href="https://bugzilla.mozilla.org/1900302">1900302</a></li>
+    <li>Julian: <a href="https://bugzilla.mozilla.org/1945449">1945449</a></li>
+    <li>Leonardo Paffi: <a href="https://bugzilla.mozilla.org/1996678">1996678</a></li>
+    <li>Loago Zambe: <a href="https://bugzilla.mozilla.org/1975592">1975592</a></li>
+    <li>Meg Ford: <a href="https://bugzilla.mozilla.org/1898383">1898383</a>，<a href="https://bugzilla.mozilla.org/1997187">1997187</a></li>
+    <li>Mingyuan Zhao [:MagentaManifold]: <a href="https://bugzilla.mozilla.org/1995168">1995168</a></li>
+    <li>Pavel Kireev: <a href="https://bugzilla.mozilla.org/400264">400264</a>，<a href="https://bugzilla.mozilla.org/1852625">1852625</a>，<a href="https://bugzilla.mozilla.org/1975612">1975612</a>，<a href="https://bugzilla.mozilla.org/1986459">1986459</a>，<a href="https://bugzilla.mozilla.org/1988355">1988355</a>，<a href="https://bugzilla.mozilla.org/1998237">1998237</a></li>
+    <li>PhuongNam: <a href="https://bugzilla.mozilla.org/1968398">1968398</a></li>
+    <li>Simon Knott: <a href="https://bugzilla.mozilla.org/1993703">1993703</a></li>
+    <li>Thomas J Faughnan Jr: <a href="https://bugzilla.mozilla.org/1994098">1994098</a></li>
+    <li>zzjas98: <a href="https://bugzilla.mozilla.org/1997216">1997216</a></li>
   </ul>
 
 </article>
@@ -279,7 +376,7 @@
 				<h2>下載與安裝</h2>
 
 				<h3 id="requirements">系統需求</h3>
-				<p>在安裝 Firefox 前請先確定您的電腦是否合乎<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/146.0.1/system-requirements/">系統需求</a>。</p>
+				<p>在安裝 Firefox 前請先確定您的電腦是否合乎<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/146.0/system-requirements/">系統需求</a>。</p>
 
 				<h3 id="download">下載 Firefox</h3>
 				<p>您可以<a href="/firefox/">由此下載最新的 Firefox</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/all/">各國語言版本</a>，或<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/channel/desktop/">由此下載 Firefox 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
