@@ -1,0 +1,43 @@
+<!--#set var="release_date" value="2026-01-16" -->
+<!--#set var="version" value="147.0.1" -->
+<!--#set var="previous_version" value="147.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/147.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>暫時停用新版 Compression Dictionaries 技術，修正 ChatGPT 等網站的相容性問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2010712">Bug 2010712</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Linux 系統會多建立一個不必要空目錄的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2001887">Bug 2001887</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正時間格式處理造成部分網站顯示異常的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2010411">Bug 2010411</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>若需瞭解此版本之前的變更，請參考 <a href="/firefox/releases/147.0/">Firefox 147.0 版本資訊</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20147&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox147&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla147&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'><!--#echo var="previous_version" --> 版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

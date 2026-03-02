@@ -1,0 +1,159 @@
+<!--#set var="release_date" value="2026-01-06" -->
+<!--#set var="version" value="147.0" -->
+<!--#set var="previous_version" value="146.0.1" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/147.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可在 Firefox 中讓 PiP 視窗隨時自動開啟。只要到設定啟用「自動開啟 Picture-in-Picture」，當你切換分頁時，正在播放的影片就會自動跳出成 PiP 視窗，追劇或看教學更不中斷。</p>
+      <p><img src="/firefox/releases/147.0/147_auto_pip.png" alt="螢幕截圖：Firefox 自動開啟子母畫面設定"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正並改善垂直分頁模式下的拖放行為，讓分頁操作更穩定、直覺。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上 Firefox 在次螢幕最大化時，點擊螢幕頂端分頁偶爾失效的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正因情境選單項目過長，導致「全部分頁列表」開啟延遲的效能問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Android 上某些觸控事件會被錯誤處理為滑鼠事件的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 13 代 Intel 與 7000 系列 AMD CPU 裝置上，部分進階使用者回報的偶發當機問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Linux 上匯出密碼 CSV 時，檔案名稱中的括號會被編碼成 URL 字元的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正讓某些使用者在 YouTube 觀看影片時出現畫面凍結的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正進入睡眠後喚醒，部分 VPN 擴充套件的連線可能失效的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-02/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-147-release-notes">Firefox 147 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/147">Firefox 147 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>新增 JavaScript Error Report API，讓網站可在開發者工具主控台中更精準呈現錯誤。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>新增主控台的 inline 變數預覽，可直接在程式碼行內查看當下變數值。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/URLPattern">URLPattern API</a>，可用於網址比對與路由處理。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>支援 CSS 偽類 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/:open">:open</a>，可在 <code>&lt;details&gt;</code> 等元件展開時套用樣式。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增 Web API <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/revokeObjectURL">StorageAccessHandle.revokeObjectURL()</a>，可在儲存存取情境中撤銷物件 URL。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在可在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/a">anchor element</a> 上設定 Preference API。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Windows 使用者的媒體回放速度（playback rates）現在可跨不同網站保留設定。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增 CSS 屬性 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter">scrollbar-gutter</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/shape-margin">shape-margin</a> 的支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/scrollbar-width">scrollbar-width</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/scrollbar-color">scrollbar-color</a> 在 Android 上的支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增 API <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/voiceschanged_event">SpeechSynthesis.onvoiceschanged</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/getVoices">SpeechSynthesis.getVoices()</a> 的支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>修正 DevTools 並改進 Firefox 內建截圖工具的穩定性與使用體驗。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20147&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox147&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla147&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'><!--#echo var="previous_version" --> 版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>Firefox 147 感謝以下首次把程式碼貢獻到 Firefox 的朋友，也歡迎其中 11 位全新志工加入！一起看看他們的成果：</p>
+
+  <ul>
+    <li>Aditya Sinha: <a target="_blank" href="https://bugzilla.mozilla.org/2007873">2007873</a></li>
+    <li>Alaa El-Din: <a target="_blank" href="https://bugzilla.mozilla.org/2010120">2010120</a></li>
+    <li>Andi: <a target="_blank" href="https://bugzilla.mozilla.org/2010854">2010854</a></li>
+    <li>Axel Hoirisch: <a target="_blank" href="https://bugzilla.mozilla.org/2005397">2005397</a></li>
+    <li>Blue Abadi: <a target="_blank" href="https://bugzilla.mozilla.org/2008507">2008507</a></li>
+    <li>Devin Lindsey: <a target="_blank" href="https://bugzilla.mozilla.org/2004324">2004324</a></li>
+    <li>Lucky Mankau: <a target="_blank" href="https://bugzilla.mozilla.org/2003794">2003794</a></li>
+    <li>Otto Jäger: <a target="_blank" href="https://bugzilla.mozilla.org/2001529">2001529</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2005914">2005914</a></li>
+    <li>Salim Djerbouh: <a target="_blank" href="https://bugzilla.mozilla.org/1841922">1841922</a></li>
+    <li>Thiago Louzada: <a target="_blank" href="https://bugzilla.mozilla.org/1932604">1932604</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1932604">1932604</a></li>
+    <li>Tom Schuster: <a target="_blank" href="https://bugzilla.mozilla.org/1889664">1889664</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
