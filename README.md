@@ -47,6 +47,9 @@ You can do shallow clone to get this repo more quickly.
 4. Open `localhost:3000`, modify html and [browsersync](http://browsersync.io/) will reload the preview page.
 5. Run `npm run build` to build the static results before you commit to moztw.pages.dev branch.
 
+## Agent notes
+Please see `AGENTS.md` for collaboration rules used by coding agents.
+
 <!--
 ## Static Pages Local Installation
 
