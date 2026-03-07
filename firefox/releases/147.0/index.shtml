@@ -12,46 +12,44 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p><a target="_blank" href="https://support.mozilla.org/kb/address-autofill">Address autofill</a> 現在已在瑞士使用者開啟。</p>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/automatically-fill-your-address-web-forms">自動填寫地址</a>（Address autofill）已對瑞士使用者開啟。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>macOS 上支援 Apple Silicon 晶片的設備，現在也全面啟用 WebGPU。</p>
+      <p>使用 Apple Silicon 處理器的 macOS（支援版本）現在也全面啟用 WebGPU 支援。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>在有支援的 AMD 顯示卡上，Firefox 啟用硬體解碼影片的 zero-copy 播放，讓效能與 Intel、NVIDIA 相當。</p>
+      <p>在具備 AMD GPU 的系統上啟用硬體解碼影片的 zero-copy 播放，讓影片播放效能與 Intel、NVIDIA GPU 相當。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 現在支援 <a target="_blank" href="https://developers.google.com/safe-browsing/v5">Safe Browsing V5 通訊協定</a>，並逐步從 V4 轉為 <a target="_blank" href="https://developers.google.com/safe-browsing/technology-how-it-works#local-lists">local list mode</a>。</p>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developers.google.com/safe-browsing/reference">Safe Browsing V5 通訊協定</a>，並逐步從 V4 轉為 Safe Browsing V5 協定的 <a target="_blank" href="https://developers.google.com/safe-browsing/reference/Local.List.Mode">本機威脅清單模式</a>。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>將追蹤保護（ETP）設定為 Strict 的使用者，將預設啟用「本機網路存取限制」；瀏覽器會要求網站明確允許存取本機網路資源。這是逐步釋出功能。</p>
+      <p>將加強型追蹤保護（ETP）設定為「嚴格」的使用者，將預設啟用<a target="_blank" href="https://support.mozilla.org/kb/control-personal-device-local-network-permissions-firefox">區域網路存取限制</a>；瀏覽器會要求使用者明確允許網站存取區域網路資源。</p>
       <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
-      <p><a target="_blank" href="https://support.mozilla.org/kb/tracking-protection-firefox">了解 ETP Strict</a></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 現在可在 <code>about:keyboard</code> 自訂快捷鍵，取代難打或難記的組合鍵，也可避免與其他軟體熱鍵衝突。歡迎到 <a target="_blank" href="https://connect.mozilla.org">Mozilla Connect</a> 分享回饋。</p>
+      <p>現在可在 <code>about:keyboard</code> 啟用測試自訂快捷鍵功能，取代那些難打或難記的按鍵組合，或避免與其他軟體衝突。歡迎到 <a target="_blank" href="https://connect.mozilla.org/t5/discussions/customizable-hotkeys-is-live-please-help-us-scope-version-2/td-p/116793">Mozilla Connect</a> 分享回饋。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>支援 Freedesktop.org 的 <a target="_blank" href="https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html">XDG Base Directory Specification</a>。</p>
+      <p>Firefox 現已支援 Freedesktop.org 的 <a target="_blank" href="https://specifications.freedesktop.org/basedir/latest/">XDG Base Directory Specification</a>。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>背景分頁的影片現在可在分頁切到後台時，選擇自動開啟 Picture-in-Picture 視窗，維持播放不中斷。</p>
-      <p><img src="/firefox/releases/147.0/147_auto_pip.png" alt="螢幕截圖：Firefox 設定中可啟用自動畫中畫功能"></p>
-      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+      <p>現在分頁切換到背景時，可自動以子母畫面顯示該分頁上播放中的影片。特別感謝我們的志工 Daniele Ferla 貢獻此功能！</p>
+      <p><img src="/firefox/releases/147.0/147_auto_pip.png" alt="螢幕截圖：Firefox 設定中可啟用自動子母畫面功能"></p>
     </li>
 
     <li>
@@ -61,27 +59,27 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 HTTP/3 請求若含非 UTF-8 標頭值時，可能逾時或退回 HTTP/2 的問題。</p>
+      <p>修正 HTTP/3 請求若含非 UTF-8 檔頭值時，可能逾時或退回 HTTP/2 的問題。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正可拖曳按鈕的行為，現在可直接從按鈕本身開始拖曳。</p>
+      <p>可拖曳的按鈕現在可直接從按鈕本身開始拖曳。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>Linux GNOME Mutter 使用者的視窗與繪圖表面尺寸，已更新為符合實際像素格點，讓非整數縮放下渲染更清晰。</p>
+      <p>Linux GNOME Mutter 使用者的視窗與繪圖表面尺寸，已更新為符合實際像素格點，因此任何視窗尺寸下，Firefox 在非整數縮放螢幕上渲染都會更清晰。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/">安全性修正</a>。</p>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-01/">安全性修正</a>。</p>
     </li>
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>Firefox 現在採用與其他主要瀏覽器相同的 <code>Accept-Language</code> q 值行為，第二語言偏好從原本 <code>q=0.5</code> 調整為 <code>q=0.9</code>，之後每項遞減 0.1（最低 0.1）；可修正部分伺服器拒絕低品質值的相容性問題。</p>
+      <p>Firefox 現在採用與其他主要瀏覽器相同的 <code>Accept-Language</code> 品質數值（q-values），第二語言偏好從原本 <code>q=0.5</code> 調整為 <code>q=0.9</code>，之後每項遞減 0.1（最低 0.1）；可修復部分伺服器不正確的拒絕較低品質值的相容性問題。</p>
     </li>
 
     <li>
@@ -96,7 +94,7 @@
 
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <p>View Transitions：虛擬元素（pseudo-elements）現在會出現在 Elements 面板，相關動畫也可在動畫面板查看。</p>
+      <p>View Transitions：transition 的虛擬元素現在會出現在元件面板中，相關動畫也可在動畫面板查看。</p>
     </li>
 
     <li>
@@ -116,27 +114,28 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Navigation_API">Navigation API</a>，可處理瀏覽導航的啟始、攔截與管理行為。</p>
+      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Navigation_API">Navigation API</a>，此 API 可處理瀏覽器瀏覽時的啟始、攔截與管理行為。
+        這是繼先前的網路平台功能，如 History API 與 <code>window.location</code> 的後繼者，解決了它們的短板。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>更新 Unicode ICU 函式庫至 <a target="_blank" href="https://github.com/unicode-org/icu/releases/tag/release-78-1">release 78</a>，加入 Unicode 17 與更多語系支援。</p>
+      <p>更新 Unicode ICU 函式庫至 <a target="_blank" href="https://github.com/unicode-org/icu/releases/tag/release-78.1">release 78</a>，加入 <a target="_blank" href="https://blog.unicode.org/2025/09/unicode-170-release-announcement.html">Unicode 17</a> 與更多語系支援。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 service workers 中的 ES module，改善現代 Web App 相容性。</p>
+      <p>支援 service workers 中的 ES module，跟進其他主要瀏覽器，改善現代 Web App 相容性。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import">CSS Module Scripts</a>，可用 JS 模組系統匯入樣式。</p>
+      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Modules#loading_non-javascript_resources">CSS Module Scripts</a>，可用 JavaScript 模組系統匯入樣式表。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/counter">`counter-*`</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/quotes">`quotes`</a> 屬性現在可在 <code>::marker</code> 使用。</p>
+      <p>現在可在 <code>::marker</code> 虛擬元素上使用 CSS 的 <code>counter-*</code> 與 <code>quotes</code> 屬性。</p>
     </li>
 
     <li>
@@ -146,27 +145,27 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/:active-view-transition-type">:active-view-transition-type</a> selector，並支援相關 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/View_Transitions_API">View Transitions API</a> 變更。</p>
+      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/startViewTransition#types"><code>:active-view-transition-type</code></a> 選擇器，並支援相關 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/View_Transition_API">View Transitions API</a> 的變更。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>可透過 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/activeViewTransition">Document.activeViewTransition</a> 取得目前作用中的畫面過渡資訊。</p>
+      <p>Firefox 現在透過 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/activeViewTransition"><code>Document.activeViewTransition</code></a> 揭露目前文件作用中的 view transition 資訊。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/anchor-position">CSS anchor positioning</a>，讓元素可綁定錨點，並依參考元素調整大小與位置。</p>
+      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_anchor_positioning">CSS anchor positioning</a>，讓元素可綁定錨點。綁定的元素可設定為 relative 以依其錨點元件調整大小與位置。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Storage-Access-Headers">Storage-Access-Headers</a>，允許伺服器在取得 Storage Access API 授權後，透過 HTTP header 使用未分區 cookie。</p>
+      <p>支援 Storage-Access-Headers，允許伺服器在取得 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Storage_Access_API">Storage Access API</a> 授權後，透過 HTTP header 使用未分區 cookie。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>實作 CSS 根字型相對單位 <code>rcap</code>、<code>rch</code>、<code>rex</code> 與 <code>ric</code>。</p>
+      <p>實作 CSS 根字型相對單位（root-font-relative units） <code>rcap</code>、<code>rch</code>、<code>rex</code> 與 <code>ric</code>。</p>
     </li>
   </ul>
 
@@ -179,23 +178,23 @@
 
   <h3>社群貢獻者</h3>
 
-  <p>Firefox 147 發布時，歡迎以下首次提交程式碼到 Firefox 的開發者，其中 14 位是全新志工。</p>
+  <p>隨著 Firefox 147 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 14 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
 
   <ul>
-    <li>:Joe Cardoso Loan de Deus Vieira Cardoso: <a target="_blank" href="https://bugzilla.mozilla.org/1730474">1730474</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1897620">1897620</a></li>
-    <li>Aaron Kriegman: <a target="_blank" href="https://bugzilla.mozilla.org/1955625">1955625</a></li>
-    <li>Aloys: <a target="_blank" href="https://bugzilla.mozilla.org/2002985">2002985</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2003194">2003194</a></li>
-    <li>Areeba: <a target="_blank" href="https://bugzilla.mozilla.org/2000792">2000792</a></li>
-    <li>Daniel Singer: <a target="_blank" href="https://bugzilla.mozilla.org/1895228">1895228</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1981571">1981571</a></li>
-    <li>Dominique: <a target="_blank" href="https://bugzilla.mozilla.org/1995325">1995325</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2000957">2000957</a></li>
-    <li>James Hay: <a target="_blank" href="https://bugzilla.mozilla.org/1864284">1864284</a></li>
-    <li>Kipchumba Chelilim [:mrchumbastic]: <a target="_blank" href="https://bugzilla.mozilla.org/1905323">1905323</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1956817">1956817</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1994752">1994752</a></li>
-    <li>Lorenz A: <a target="_blank" href="https://bugzilla.mozilla.org/983296">983296</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1632071">1632071</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1665702">1665702</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1709063">1709063</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2004038">2004038</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2004205">2004205</a></li>
-    <li>Michal Bozon: <a target="_blank" href="https://bugzilla.mozilla.org/1998963">1998963</a></li>
-    <li>Scott Venkataraman: <a target="_blank" href="https://bugzilla.mozilla.org/1995324">1995324</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1999325">1999325</a></li>
-    <li>Sick Leviathan: <a target="_blank" href="https://bugzilla.mozilla.org/1362499">1362499</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1918733">1918733</a>、<a target="_blank" href="https://bugzilla.mozilla.org/1960699">1960699</a></li>
+    <li>witty.31.06: <a target="_blank" href="https://bugzilla.mozilla.org/2000613">2000613</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000765">2000765</a></li>
     <li>Tom Forbes: <a target="_blank" href="https://bugzilla.mozilla.org/1897424">1897424</a></li>
-    <li>witty.31.06: <a target="_blank" href="https://bugzilla.mozilla.org/2000613">2000613</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2000765">2000765</a></li>
+    <li>Sick Leviathan: <a target="_blank" href="https://bugzilla.mozilla.org/1362499">1362499</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1918733">1918733</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1960699">1960699</a></li>
+    <li>Scott Venkataraman: <a target="_blank" href="https://bugzilla.mozilla.org/1995324">1995324</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1999325">1999325</a></li>
+    <li>Michal Bozon: <a target="_blank" href="https://bugzilla.mozilla.org/1998963">1998963</a></li>
+    <li>Lorenz A: <a target="_blank" href="https://bugzilla.mozilla.org/983296">983296</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1632071">1632071</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1665702">1665702</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1709063">1709063</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004038">2004038</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004205">2004205</a></li>
+    <li>Kipchumba Chelilim [:mrchumbastic]: <a target="_blank" href="https://bugzilla.mozilla.org/1905323">1905323</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1956817">1956817</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1994752">1994752</a></li>
+    <li>James Hay: <a target="_blank" href="https://bugzilla.mozilla.org/1864284">1864284</a></li>
+    <li>Dominique: <a target="_blank" href="https://bugzilla.mozilla.org/1995325">1995325</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000957">2000957</a></li>
+    <li>Daniel Singer: <a target="_blank" href="https://bugzilla.mozilla.org/1895228">1895228</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1981571">1981571</a></li>
+    <li>Areeba: <a target="_blank" href="https://bugzilla.mozilla.org/2000792">2000792</a></li>
+    <li>Aloys: <a target="_blank" href="https://bugzilla.mozilla.org/2002985">2002985</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2003194">2003194</a></li>
+    <li>Aaron Kriegman: <a target="_blank" href="https://bugzilla.mozilla.org/1955625">1955625</a></li>
+    <li>[:Joe Cardoso] Loan de Deus Vieira Cardoso: <a target="_blank" href="https://bugzilla.mozilla.org/1730474">1730474</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1897620">1897620</a></li>
   </ul>
 
 </article>
