@@ -34,11 +34,6 @@
       <span class="tag tag-fixed">修正</span>
       <p>修正 Windows 安裝大量字型時，Firefox 介面（分頁、選單、設定）可能顯示亂碼或符號而非可讀文字的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2012950">Bug 2012950</a>）</p>
     </li>
-
-    <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>若需瞭解此版本之前的變更，請參考 <a href="/firefox/releases/147.0.2/">Firefox 147.0.2 版本資訊</a>。</p>
-    </li>
   </ul>
 
   <h3 id="knownissues">已知問題</h3>
@@ -52,7 +47,7 @@
   <ul class="tags">
     <li class="complete">
       請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20147&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox147&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla147&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
-      你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'><!--#echo var="previous_version" --> 版本的更新</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
     </li>
   </ul>
 
