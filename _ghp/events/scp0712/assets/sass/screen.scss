@@ -1,0 +1,473 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+$mainColor: #89bc40;
+$textColor: darken($mainColor, 35%);
+
+// mobile layout
+
+body{
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: sans-serif;
+  color: $textColor;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  a{
+    color: darken($mainColor, 20%);
+  }
+  /* tiny grid by Ant Ekşiler http://www.turkhitbox.com/ used under Creative Commons - Attribution */
+  background: url('../whitey.png') #f3f3f3;
+  @include background-size(327px 327px);
+
+  // maximum size for IE <7
+  max-width: 940px;
+  width:expression( this.clientWidth > 940 ? 940 : auto );
+  margin: 0 auto 3em;
+
+  &>header{
+    padding-top: 20px;
+    background: $mainColor;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    position: absolute;
+    @include box-shadow(0 0 6px rgba(0,0,0,0.3));
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+
+    a{
+      color: inherit;
+    }
+
+    div#moztwHeader{
+      background: #455372;
+      @include background-image(linear-gradient(#455372, #2a3753));
+      border-radius: 8px;
+      height: 3em;
+      min-height: 39px;
+      padding: 15px 0;
+      position: relative;
+      max-width: 70em;
+      margin: 0 auto 2em;
+      line-height: 1.2em;
+      text-shadow: none;
+      font-size: small;
+      @include box-shadow(0 0 6px rgba(0,0,0,0.3));
+
+      h1 {
+        font-size: 2px;
+        height: 8px;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        a {
+          display: block;
+          height: 64px;
+          text-decoration: none;
+          text-indent: -700em;
+          height: 65px;
+          width: 354px;
+          background: url("../moztw.png") no-repeat scroll 0 0 transparent;
+        }
+      }
+      ul {
+          bottom: 0;
+          list-style: none outside none;
+          margin: 0;
+          padding: 0 15px 0 0;
+          position: absolute;
+          right: 0;
+          width: auto;
+          z-index: 90;
+      }
+      li {
+          float: right;
+          margin: 0 1px 0 0;
+          padding: 0;
+      }
+      ul a {
+          background-color: #5F697E;
+          background-image: -moz-linear-gradient(center top , #6A748A, #5F697E);
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          color: #FFFFFF;
+          display: block;
+          float: left;
+          font-weight: bold;
+          padding: 4px 10px 5px;
+          text-decoration: none;
+      }
+      ul a:hover {
+          background: none repeat scroll 0 0 #747F96;
+          text-shadow: 0 1px 1px #2A3753;
+      }
+      form {
+          margin: 0;
+          padding: 12px 20px 0 0;
+          position: absolute;
+          right: 0;
+          text-align: right;
+          top: 0;
+          white-space: nowrap;
+      }
+      form label {
+          color: #FFFFFF;
+          font-size: 85%;
+      }
+      form input {
+          font-size: 85%;
+      }
+      form #submit {
+          background: none repeat scroll 0 0 #6A7389;
+          border-color: #9097A2 #283043 #283043 #9097A2;
+          border-right: 1px solid #283043;
+          border-style: solid;
+          border-width: 1px;
+          color: #FFFFFF;
+          font-size: 85%;
+          padding: 1px 4px;
+          font-weight: 700;
+          vertical-align: middle;
+      }
+      form #q {
+          background: none repeat scroll 0 0 #D9DBE1;
+          border: 1px solid #9097A2;
+          font-size: 85%;
+          padding: 2px;
+          width: 130px;
+      }
+      form #q:hover, form #q:focus {
+          background: none repeat scroll 0 0 #FFFFFF;
+      }
+    }
+
+    div#moztwHeader{
+      width: 257px;
+      overflow: hidden;
+      ul, form{
+        display: none;
+      }
+    }
+
+    &>h1{
+      font-weight: 700;
+      font-size: 1.3em;
+      text-transform: uppercase;
+    }
+
+    div.header-content{
+      margin: 1em 0;
+      height: 2.4em;
+      .location {
+        display: none;
+      }
+    }
+
+    nav{
+      ul{
+        display: block;
+        padding: 0.5em 0;
+        li{
+          display: inline;
+          margin: 0 0.5em;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    &.fixed {
+      position: fixed;
+      padding-top: 0;
+      height: auto;
+      &>*{
+        display: none !important;
+      }
+      nav{
+        display: block !important;
+      }
+    }
+  }
+
+  div#content{
+    margin-top: 13em;
+    padding: 0;
+    article{
+      border-bottom: 2px solid #aaa;
+      padding: 2em 1em 1em;
+      header{
+        h2{
+          font-size: 1.3em;
+          font-weight: 700;
+        }
+        margin: 1em 0 2em;
+      }
+      p{
+        margin: 1em 0;
+        text-align: justify;
+        text-justify: inter-ideograph;
+      }
+      &.logos{
+        h3{
+          font-size: 1.2em;
+          font-weight: 700;
+          margin: 2em 0 0;
+          clear: both;
+        }
+        p.logo{
+          display: none;
+        }
+      }
+      .registrano-blog-badge{
+        display: none;
+      }
+      .fallback-register-button{
+        display: block;
+      }
+    }
+    #mozGallery{
+      margin: 0 -1em;
+      .photoList{
+        border: 2px solid rgba(0,0,0,0.3);
+        border-width: 2px 0;
+        @include box-shadow(0 0 6px rgba(0,0,0,0.3));
+        margin: 0 0 0.5em;
+        padding: 0.5em 1em;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        li {
+          display: inline;
+          white-space: nowrap;
+          margin: 0 0.2em;
+          img {
+            vertical-align: middle;
+            width: 45px;
+            height: 45px;
+            background: url('../loading.gif') center center no-repeat;
+            background-size: 16px;
+          }
+        }
+      }
+      .link{
+        display: block;
+        text-align: center;
+        background: url('../loading.gif') center center no-repeat;
+        background-size: 16px;
+        img{
+          max-height: 240px;
+        }
+        height: 240px;
+      }
+      .attribution{
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+
+  div.geo{
+    display: none;
+  }
+
+  div#map{
+    height: 20em;
+    margin: 0 -1em;
+    border: 2px solid rgba(0,0,0,0.3);
+    border-width: 2px 0;
+    @include box-shadow(0 0 6px rgba(0,0,0,0.3));
+  }
+
+  footer{
+    clear: both;
+    padding-top: 3em;
+    line-height: 16px;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    text-align: center;
+    img{
+      vertical-align: middle;
+    }
+    ul#bn{
+      margin-bottom: 0.8em;
+    }
+    a{
+      white-space: nowrap;
+    }
+    a.subfoot{
+      display: block;
+    }
+  }
+
+  .registrano-blog-badge {
+    margin-bottom: 20px;
+    div {
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      display: none;
+    }
+    .event-date {
+      display: none;
+    }
+    .event-attendees-list {
+      list-style: none;
+      margin: 0 0 0 3px;
+      padding: 0;
+      li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        img {
+          margin: 0 2px 2px;
+          padding: 0;
+          display: inline;
+          width: 32px;
+          height: 32px;
+          border: 1px solid #eee;
+        }
+      }
+    }
+  }
+  .event-link {
+    display: block;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    background: #338833;
+    text-decoration: none;
+    color: #fff;
+    @include border-radius(5px);
+    width: 220px;
+    &:hover {
+      background: #fffc20;
+      color: #222;
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  body{
+    font-size: 18px;
+    line-height: 1.25em;
+
+    div#content{
+      article.logos {
+        h3, p{
+          margin-left: 240px;
+        }
+        p.logo{
+          display: block;
+          margin-left: 0;
+          float: left;
+          width: 220px;
+          text-align: right;
+
+          img{
+            max-width: 220px;
+            max-height: (round(220px/1.6182818));
+          }
+        }
+        &:after{
+          content: '';
+          display: block;
+          clear: both;
+        }
+
+        #map{
+          border-width: 3px 0;
+        }
+      }
+      article{
+        .registrano-blog-badge{
+          display: block;
+        }
+        .fallback-register-button{
+          display: none;
+        }
+      }
+      #mozGallery{
+        .photoList{
+          li img {
+            width: 70px;
+            height: 70px;
+          }
+        }
+        .link{
+          img{
+            max-height: 480px;
+          }
+          height: 480px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  body{
+    font-size: 20px;
+    line-height: 1.3em;
+    &>header{
+      // background: url('../header.gif') center bottom no-repeat #68912d;
+      background: url('../header.png') center bottom no-repeat #7aa838;
+      div#moztwHeader{
+        width: auto;
+        max-width: 70em;
+        ul, form{
+          display: block;
+        }
+      }
+      a#webmaker img {
+        margin-right: 24em;
+      }
+      &>h1{
+        display: none;
+      }
+      div.header-content{
+        margin-top: 350px;
+      }
+    }
+    div#content{
+      margin: 550px auto 0;
+      padding: 0;
+
+      div#map{
+        height: 480px;
+        margin: 0;
+        border-radius: 0.6em;
+        border-width: 5px;
+      }
+      #mozGallery{
+        margin: 0;
+        .photoList{
+          padding: 0.5em 0.1em;
+          border-radius: 0.6em;
+          border-width: 5px;
+          li img {
+            width: 90px;
+            height: 90px;
+          }
+        }
+      }
+    }
+    footer{
+      li{
+        display: inline;
+      }
+      a.subfoot{
+        display: inline
+      }
+    }
+  }
+}

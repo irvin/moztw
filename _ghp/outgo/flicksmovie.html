@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Firefox Flicks - MozTW</title>
+    <style>
+    /*
+    body { 
+        background-color: black;
+        font-size: 18px;
+        text-align: center;
+        margin: 15px;
+    }
+    a { 
+        text-decoration: none;
+        color: #777; 
+    }
+    a:hover { color: #bbb; }
+    img {
+        float: left;
+        height: 540px;
+        margin-left: 40px;
+    }
+    a img { border: none; }
+    p {
+        line-height: 540px;
+        margin: 0;
+    }
+    */
+    </style>
+    <script type="text/javascript">
+    //FIXME: GA Upgrade
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1035080-1']);
+      _gaq.push(['_setDomainName', 'moztw.org']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    function recordOutboundLink(link, category, action) {
+      try {
+        var myTracker=_gat._getTrackerByName();
+        _gaq.push(['myTracker._trackEvent', ' + category + ', ' + action + ']);
+        setTimeout('document.location = "' + link + '"', 100)
+      }catch(err){}
+    };
+
+    window.onload = function ()
+    {
+        recordOutboundLink("https://firefoxflicks.mozilla.org/", 'Outbound Links', 'mozilla.org');
+    };
+    </script>
+</head>
+<body>
+    <!--
+    <a href="https://firefoxflicks.mozilla.org/en-US/" target="_blank"><img src="images/firefox-flicks.jpg" title="Firefox Flicks 全球短片大賽海報"><p>→ 立即前往活動網站</p></a>
+    -->
+	<!-- video-element -->
+    <!--
+    <video width="640" height="360" controls autoplay="autoplay" poster="images/flicks-poster.jpg">
+        <source type="video/webm" src="http://videos-cdn.mozilla.net/serv/firefoxflicks/firefox-flicks-intro-v6-640.webm"></source>
+        <source type="video/mp4" src="http://videos-cdn.mozilla.net/serv/firefoxflicks/firefox-flicks-intro-v6-640.mp4"></source>
+        <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/LfY3i3_62gc?version=3&amp;hl=zh_TW&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LfY3i3_62gc?version=3&amp;hl=zh_TW&amp;rel=0" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+    </video>
+    -->
+
+</body>
+</html>

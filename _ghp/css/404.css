@@ -1,0 +1,18 @@
+div{
+  margin: 0px;
+}
+.grids {
+  margin-left: 117px;
+}
+.grid-12{
+  width: 100%;
+}
+.key-point{ 
+  height: auto;
+  width: 75%;
+  margin-right: 5px;
+}
+div.find-child.grids{
+  height: auto;
+  margin-left: 0px;
+}

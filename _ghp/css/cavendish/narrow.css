@@ -1,0 +1,98 @@
+/* FirefoxFlicks */
+#flicks {
+    top: 115px !important;
+    width: 100% !important;
+}
+#flicks:hover {
+    margin-top: 0px !important;    
+}
+#flicks img {
+    left: 0 !important;
+    top: 143px !important;
+    width: 100% !important;
+}
+#flicks .frame {
+    height: 500px;
+}
+#flicks .title {
+    top: 260px !important;
+    left: 80px !important;
+    padding: 0 !important;
+}
+#flicks:hover .title {
+    top: 260px !important;
+}
+
+
+.frontcolumn,.frontcolumndouble,.frontcolumnlast {
+	width: 100%;
+	padding:0;
+	margin-bottom:2em;
+}
+
+#front-feature #feature-content{
+	padding:6px;
+	text-shadow:#eceeee 1px 1px 0px;
+}
+
+#front-feature{
+	-moz-background-size:300px; 
+	-o-background-size:300px;
+	-webkit-background-size:300px;
+	background-size:300px;	
+	background-position:100% 100%;
+	padding-bottom:300px;
+}
+.download{
+	display:none;
+}
+
+#header{
+	height:auto;
+	padding: 0;
+	position:static;
+	margin-top:2.5em;
+	font-size:83%; 
+}
+#header h1 {position:relative; top:0;}
+#header h1 a{
+	-moz-background-size:50%; 
+	-o-background-size:50%;
+	-webkit-background-size:50%;
+	background-size:100%;
+	padding:0;
+	margin:0;
+	width:200px;
+	height:50px;
+	display:block;
+	float:left;
+}
+#header ul{position:relative; margin:0; padding:0; font-size:115%;}
+#header ul:before{ clear:both; display:block;content:'';}
+#header ul:after{ clear:both; display:block;content:'';}
+#header ul a{
+	margin:0 2px 4px;
+	border-top:1px solid #aaa;
+	border-bottom:1px solid #333;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#header #search{ position:absolute; padding:0.5em 0; top:0; right:0; bottom:0; width:90%; width: 90vw; padding-right: 10%; padding-right: 10vw; height: 1em;
+}
+#header #search #q{width:70%;}
+#footer{
+	font-size:67%;
+}
+#footer li{
+	display:block;
+}
+body{
+	min-width:300px;
+	font-size:103%;
+	padding:0;
+	margin:3px 7px;
+}
+
+/*隱藏「所有公告紀錄」, this one is dirty*/
+#mBody>a{display:none;}

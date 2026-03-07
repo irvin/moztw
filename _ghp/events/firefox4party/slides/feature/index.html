@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--
+
+    ***************************************************
+    *                                                 *
+    * DZ-Slides: HTML Template for your presentations *
+    *                                                 *
+    ***************************************************
+      More information: http://paulrouget.com/dzslides
+
+
+    Author: @paulrouget <paul@mozilla.com>
+
+    Contributor(s):
+      - Anthony Ricaud <rik24d@gmail.com>
+      - Louis-Rémi Babé <lrbabe@gmail.com>
+
+
+    LICENSE:
+      DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+      Version 2, December 2004
+
+      Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+      Everyone is permitted to copy and distribute verbatim or modified
+      copies of this license document, and changing it is allowed as long
+      as the name is changed.
+
+      DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+      0. You just DO WHAT THE FUCK YOU WANT TO.
+
+
+    -->
+
+
+
+    <title>Firefox 4 Party - 火狐再臨！</title>
+
+        <!--
+        ************************************
+        *                                  *
+        *               CSS                *
+        *                                  *
+        ************************************
+        -->
+
+
+      <style>
+        /*
+        ************************************
+        *    CSS CORE:                     *
+        *    YOU DON'T WANT TO EDIT THIS   *
+        *    (but you can)                 *
+        ************************************
+        */
+
+        html { overflow: hidden; }
+        body, html { height: 100%; padding: 0px; }
+        body { margin: auto; position: relative; }
+        img, video { vertical-align: middle; }
+        /* FIXME : Mandatory for flex box model, Firefox bug */
+        /* See JS hack */
+        section > div { width: 100%; display: -moz-box; -moz-box-orient : vertical; -moz-box-pack : center; -moz-box-align : center; }
+        section > div { width: 100%; display: -webkit-box; -webkit-box-orient : vertical; -webkit-box-pack : center; -webkit-box-align : center; }
+        footer { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; position: absolute; bottom: 0; padding: 1em; width: 100%; }
+        .flex-wrapper { display: -moz-box; display: -webkit-box; -moz-box-orient: horizontal; -webkit-box-orient: horizontal; width: 100%; }
+        footer .flex-space { -moz-box-flex: 1; -webkit-box-flex: 1; }
+        section { -moz-transition-property: -moz-transform, opacity; -moz-transition-duration: 1s, 1s; pointer-events: none; display: block; width: 100%; margin: auto; position: absolute; padding: 0 10px; opacity: 0; -moz-box-sizing: border-box; }
+        section { -webkit-transition-property: -webkit-transform, opacity; -webkit-transition-duration: 1s, 1s; pointer-events: none; -webkit-box-sizing: border-box; }
+        section h1, section h2, section h3, section p { text-align: center; margin: .3em; margin: 0; padding: 0; }
+        section[aria-selected] { opacity: 1; pointer-events: auto; -moz-transition-delay: 1s, 1s; -webkit-transition-delay: 1s, 1s; }
+        pre { font-size: 35px; border-left: 6px solid white; padding-left: 10px; white-space: pre-wrap;       /* css-3 */ word-wrap: break-word;       /* Internet Explorer 5.5+ */ line-height: 1.3em; } 
+        a { color: orange !important; text-decoration: none; }
+		strong { text-shadow: black 5px 5px 3px; }
+        /*
+        ************************************
+        *    CSS OPTIONS:                  *
+        *    YOU WANT TO EDIT THIS         *
+        *                                  *
+        ************************************
+        */
+
+        /* Want your own font? Use font-face */
+        @font-face  {
+          /* Uncomment and add your own font file
+          font-family: fface;
+          src: url(myfont.ttf);
+          */
+        }
+
+        /* The backgrounds of all your slides */
+        body {
+          /* Could be an image, a color, a gradient */
+          background-image: -moz-radial-gradient( 50% 30% 90deg, circle, #006EA0 0%, #304160 600px);
+          background-image: -webkit-gradient(radial, 50% 30%, 0, 50% 30%, 600, from(#006EA0), to(#304160));
+          background-color: #006EA0;
+        }
+
+        /* This is the style of a slide */
+        section {
+          font-family: sans-serif;
+          font-weight: bold;
+          font-size: 60px;
+          text-shadow: 0px -2px 0px #374683;
+          color: white;
+          /*
+          Your own font?
+          font-family: fface;
+          */
+        }
+        .footnote {
+          font-size: 40%;
+        }
+        /* This part define the transitions between the slides
+           Here I propose 3 differents effect:
+             Default translation (classic "sliding" effect)
+             Rotation (a bit dizzy... "DZ"? You get it? \o/)
+             Nothing (just a fadein/fadeout)
+           With the CSS3 transformations, you can create your own.
+         */
+
+
+        /* Let me describe how the slides work:
+           A slide can be:
+           - the current slide
+           - A upcoming slide (from the "future")
+           - A slide already seen (from the "past")
+           With CSS, you describe where are those slide,
+           in the space. Then, a transition will animate
+           this.
+        */
+
+
+
+        /* "PAST" ******************************/
+        section {
+
+          /* The sliding effect
+          -moz-transform: translate(-100%, 0);
+          -webkit-transform: translate(-100%, 0);
+          */
+
+          /* The rotating effect */
+          -moz-transform: scale(0.3) rotate(180deg);
+          -webkit-transform: scale(0.3) rotate(180deg);
+
+          /* The nothing effect */
+          /* Well, just comment out the rotating and sliding effect*/
+
+        }
+
+        /* The footer with the title + the current slide number */
+        #footer {
+          display: block;
+          color: white;
+          opacity: 0.5;
+
+          /*
+          display: none;
+          */
+        }
+
+
+        /* "PRESENT" ****************************/
+        /* Current slide */
+        section[aria-selected] {
+          -moz-transform: scale(1.0) translate(0, 0);
+          -webkit-transform: scale(1.0) translate(0, 0);
+        }
+
+        /* "FUTURE" *****************************/
+        /* Selector not yet supported by Webkit :( */
+        section[aria-selected] ~ section {
+
+          /* The sliding effect
+          -moz-transform: translate(100%, 0);
+          -webkit-transform: translate(100%, 0);
+          */
+
+          /* The rotating effect */
+          -moz-transform: scale(5) rotate(-180deg);
+          -webkit-transform: scale(5) rotate(-180deg);
+
+          /* The nothing effect */
+          /* Well, just comment the rotating and sliding effect*/
+
+
+        }
+
+      </style>
+    </head>
+	<body>
+        <!--
+        ************************************
+        *                                  *
+        *        HTML: YOUR SLIDES         *
+        *                                  *
+        ************************************
+        -->
+
+      <section style="background-image: url(background.png); background-repeat: no-repeat; background-position: center bottom; text-shadow: red 5px 5px 3px;">
+        <h1>火狐再臨！</h1>
+        <p>Mozilla Taiwan Firefox 4 Party</p>
+      </section>
+      
+      <section>
+        <h2>What's new in Firefox 4</h2>
+        <ul>
+          <li>User Experience</li>
+          <li>Performance</li>
+          <li>Web Technology</li>
+        </ul>
+      </section>
+
+	  <section>
+	  	<h1 style="text-shadow: red 5px 5px 3px;">User Experience</h1>	
+	  </section>
+
+	  <section>
+	  	<h2>UI Change Overview</h2>
+	  	<p>3.6</p>
+	  	<p><img src="fx_3.6.png" alt="Firefox 3.6" /></p>
+	  	<p>↓</p>
+	  	<p><img src="fx_4.0.png" alt="Firefox 4.0" /></p>
+	  	<p>4.0</p>
+	  </section>
+	  
+	  <section>
+	  	<h2>Firefox Button</h2>
+	  	<p><img src="firefox_button.png" alt="Single-Access Menu" /></p>
+	  </section>
+	 
+	  <section>
+	  	<h1>Tabs-On-Top and App Tabs</h1>
+	  	<p><br /><img src="apptabs.png" alt="App Tabs on OSX" /></p>	
+	  </section>
+	 
+	  <section>
+	  	<h1>Tabs Groups</h1>
+	  	<p><img src="tabgroups.png" alt="Tab Groups on OSX" /></p>
+	  	<p>Ctrl + Shift + E to launch "Panorama"</p>	
+	  </section>
+	  
+	  <section>
+	  	<h1>Revamped Add-ons Manager</h1>
+	  	<p><img src="addon_manager.png" alt="Add-ons Manager" /></p>	
+	  </section>
+	  
+	  <section>
+	  	<h1>Web Console</h1>
+	  	<p><img src="webconsole.png" alt="Web Console on OSX" /></p>
+	  </section>
+	  
+	  <section>
+	  	<h1>Switch to Tab</h1>
+	  	<p><img src="switchtotab.png" alt="Switch to Tab on OSX" /></p>
+	  	<p class="footnote"><br />Use % to search in current tabs.</p>	
+	  </section>
+	  <!--
+	  <section>
+	  	<h1>Modal Dialogs</h1>
+	  	<p><a href="javascript:alert('Yoooooooo!');">ALERT</a></p>
+	  	<p><a href="javascript:var x = confirm('やらないか？');">CONFIRM</a></p>
+	  	<p>No longer block other tabs.</p>	
+	  </section>
+	  -->
+	  <section>
+	  	<h1>Firefox Sync</h1>
+	  	<p><img src="sync.png" alt="Firefox Sync on OSX" /></p>
+	  	<p class="footnote">Also Sync to Mobile</p>
+	  </section>
+	  
+	  <section>
+	  	<h1>Platform-Specific Improvement</h1>
+	  	<p><img src="ui_in_3os.png" alt="UI in different OS" /></p>
+     </section>
+     <!--
+	  <section>
+	  	<h1>Windows</h1>
+	  	<p><img src="windows.png" alt="Windows screenshot" /></p>
+	  </section>
+	  -->
+	  <section>
+	  	<h2>Aero Glass on Windows</h2>
+	  	<p><img src="aeroglass.png" alt="Aero Glass with Tab Groups on Windows 7" /></p>
+	  </section>
+	  <!--
+	  <section>
+	  	<h1>Mac OS X</h1>
+	  	<p><img src="macos.png" alt="Mac OS X screenshot" /></p>
+	  </section>
+	  -->
+	  <section>
+	  	<h2>OOPP on Mac</h2>
+	  	<p><img src="mac.png" alt="Mac OOPP" /></p>
+	  	<p><img src="mac2.png" alt="Mac OOPP" /></p>
+	  	<p class="footnote">Flash Fails…</p>
+	  </section>
+	  <!--
+	  <section>
+	  	<h1>Linux</h1>
+	  	<p><img src="ubuntu.png" alt="Ubuntu screenshot" /></p>
+	  </section>
+	  -->
+	  <section>
+	  	<h1>Image Zoom Antialias on Linux</h1>
+	  	<p>3.6&nbsp;<img src="antialias.png" alt="3.6 Image Zoom" />&nbsp;4.0&nbsp;<img src="antialias2.png" alt="4.0 Image Zoom" /></p>
+	  </section>
+	  
+      <section>
+        <h1 style="text-shadow: red 5px 5px 3px;">Performance</h1>
+      </section>
+
+	  <section>
+      <h2>JavaScript is faster</h2>
+	  	<p><img src="performance.png" alt="JS Benchmark" /></p>
+	  </section>
+	  
+	  <section>
+	    <h1>Mighty Monkeys &hearts; JS</h1>
+        <p><br />TraceMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">3.5</span><br />+<br />JägerMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">4.0</p>
+        </ul>
+	  </section>
+	  
+	  <section>
+	  	<h1>Graphics Hardware Acceleration</h1>
+      	<p>Check <strong>about:support</strong> for detail.</p>
+	  </section>
+	  <!--
+	  <section>
+	  	<h1>Faster Startup</h1>
+        <p>Cascaded Session Restore</p>
+        <p class="footnote">回復時「慢慢」重載所有分頁，不塞車</p>
+      </ul>      
+	  </section>
+	  -->
+	  <section>
+	    <h1>Slow Performing Add-ons</h1>
+	    <p><a href="https://addons.mozilla.org/zh-TW/firefox/performance/">拖慢啟動速度的套件？</a></p>
+	    <p><img src="slowperforming.png" alt="降低使用效能的附加元件" /></p>
+	    <p class="footnote"><br />IE9表示：附加元件效能警告器<strike>比較好用喔！</strike></p>
+	  </section>
+	  
+	  <section>
+	  	<h1 style="text-shadow: red 5px 5px 3px;">Technology</h1>	
+	  </section>
+	  
+	  <section>
+	  	<p><img src="html5.png" alt="HTML5 Logo" /></p>
+	  </section>
+	  <!--
+	  <section>
+	  	<h1>FORMS</h1>
+	  	<p><a href="http://hacks.mozilla.org/2010/11/firefox-4-html5-forms/">Forms</a></p>
+	  </section>
+	  -->
+	  <section>
+	  	<h1>Audio API</h1>
+	  	<p><iframe src="http://moztw.org/demo/audioplayer/?to=1" width="1200px" height="560px" frameborder="0"></iframe></p>
+	  	<p class="footnote"><a href="http://moztw.org/demo/audioplayer/">Our Audioplayer Demo</a></p>	
+	  </section>
+	  
+	  <section>
+	  	<script type="text/javascript">
+	  		function toggle() {
+	  			var box = document.getElementById('webm');
+  				if (box.paused) {
+  					box.play();
+  				}
+  				else {
+  					box.pause();
+  				}
+			}
+	  	</script>
+	  	<h1>WebM</h1>
+	  	<p onclick="toggle(); return false;"><video id="webm" preload controls autobuffer src="http://www.webmfiles.org/wp-content/uploads/video/big-buck-bunny_trailer.webm" type='video/webm; codecs="vp8, vorbis"'></video></p>
+	  </section>
+	  
+	  <section>
+	  	<h1>CSS3</h1>
+	  	<p><div style="box-shadow: 0 0 15px 15px #000; border-radius: 15px; padding: 15px; margin: 15px">box-shadow<br />border-radius</div></p>
+	  	<p>no more need for -moz- perfix</p>
+	  	<p><br /><a href="https://developer.mozilla.org/en/CSS/CSS_transitions">CSS Transitions</a></p>
+	  </section>
+	  
+	  <section>
+	  	<h1>WOFF</h1>
+	  	<p><iframe src="http://people.mozilla.org/~jdaggett/webfonts/sugarspice.html" width="800px" height="500px" frameborder="0"></iframe></p>
+	  	<p class="footnote">Go to <a href="http://lostworldsfairs.com/">Lost World's Fairs</a> to see more…</p>	
+	  </section>
+	  
+	  <section>
+	  	<h1>WebGL</h1>
+	  	<p class="footnote"><a href="http://www.rozengain.com/files/webgl/WebGLAnimation/">And you can port Blender Model to WebGL</a></p>
+	  	<p><img src="googlebody.png" alt="Google Body" /></p>
+	  	<p class="footnote"><a href="http://bodybrowser.googlelabs.com/">Google Body</a></p>
+	  </section>
+	  
+	  <section>
+	  	<h1>GAME</h1>
+	  	<p class="footnote"><a href="https://gaming.mozillalabs.com/">Mozilla Labs Gaming</a></p>
+	  	<p><img src="gameon.png" alt="Mozilla Labs Gaming" /></p>
+	  	<p><a href="http://mozillademos.org/demos/runfield/demo.html?theme=http%3A%2F%2Fd.dropbox.com%2Fu%2F3280872%2Frunfield%2Ffield%2F">Play with our cute Foxmosa!</a></p>
+	  </section>
+	  
+	  <section>
+	  	<h1>Web O'(pen) Wonder</h1>
+	  	<p style="box-shadow: 0 0 15px 15px #888; display: inline-block; margin: 15px"><img src="wow.png" alt="Web O'(pen) Wonder" /></p>
+	  	<p class="footnote"><a href="https://demos.mozilla.org/zh-TW/">Mozilla 之奇幻網路</a></p>
+	  </section>
+	  
+	  <section>
+	  	<h1 style="text-shadow: red 5px 5px 3px;">Future</h1>
+	  </section>
+	  
+	  <section>
+	  	<h1>Minefield is gone.</h1>
+	  	<p><br /><img src="minefield.png" alt="地雷啦" /></p>	  	
+	  	<p><br />以後就不能天天踩地雷了…</p>
+	  </section>
+	  
+	  <section>
+	  	<h1>Aurora is born.</h1>
+	  	<img src="aurora.png" alt="Aurora Channel" />
+	  </section>
+
+	  <section>
+	  	<h1>New Channels</h1>
+	  	<img src="newchannel.png" alt="Firefox Channels" />	
+	  </section>
+	  
+	  <section>
+	  	<h1>Faster Development</h1>
+	  	<p><img src="updatechannel.png" alt="Firefox Channels" /></p>
+	  </section>
+	  
+      <section>
+      	<h1>火狐健身房</h1>
+      	<p><img src="arewefastyet.png" alt="Are we fast yet?" /></p>
+		<p class="footnote"><a href="http://arewefastyet.com/">Are we fast yet?</a></p>
+      </section>
+
+      <section>
+      	<h1>火狐美容院</h1>
+      	<p><img src="areweprettyyet.png" alt="Are we pretty yet?" /></p>
+      	<p class="footnote"><a href="http://areweprettyyet.com/">Are we pretty yet?</a></p>
+      </section>
+
+      <section>
+        <h1>More about Firefox 4</h1>
+        <ul>
+          <li><a href="http://www.mozilla.com/en-US/firefox/features/">功能介紹</a></li>
+          <li><a href="http://moztw.org/firefox/releases/">版本資訊</a></li>
+          <li><a href="https://developer.mozilla.org/en/Firefox_4_for_developers">開發者資訊</a></li>
+        </ul>
+      </section>
+      
+      <section>
+      	<p><img src="end.png" alt="Thanks!" /></p>
+        <p><br />Thanks!</p>
+      </section>
+
+
+    <script>
+
+      /*
+      ************************************
+      *                                  *
+      *            JAVASCRIPT            *
+      *  (You don't have to read this)   *
+      ************************************
+      */
+
+      function init() {
+        var firstFrame = window.location.hash? parseInt(window.location.hash.split("#")[1], 10) : 1;
+        var title = document.querySelector("title").textContent;
+        var slides = document.querySelectorAll("body > section");
+        for (var i = 1, il = slides.length; i <= il; i++) {
+          // FIXME : Mandatory for flex box model for vertical align
+          // Firefox bug :(
+          slides[i - 1].innerHTML = "<div>" + slides[i - 1].innerHTML + "</div>";
+          window.history[(i == 1? 'replace' : 'push') + 'State'](i, title + " ("+ i +"/"+ il +")", "#"+i);
+        }
+        
+        var footer = document.createElement("footer");
+        footer.id = "footer";
+        footer.innerHTML = 
+          '<div class="flex-wrapper"><p>' + title + '</p>' +
+          '<p class="flex-space"></p>' + 
+          '<p id="index"><span class="pagenumber"></span> / ' + il +'</p>';
+        document.body.appendChild(footer);
+        history.go(- slides.length + firstFrame);
+
+
+        window.addEventListener("popstate", popstate, true); 
+        // Monkey patching on Firefox 4 due to the history API difference:
+        // load will not dispatch popstate automatically.
+        // See https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history
+        if (typeof window.history.state != "undefined") { popstate({state: firstFrame}); }
+      }
+      function popstate(e) {
+        if(e.state) {
+          var old = document.querySelector("section[aria-selected]");
+          var next = document.querySelector("section:nth-of-type("+ e.state +")");
+
+          if (old) {
+            old.removeAttribute("aria-selected");
+            if (old.hasAttribute("data-onunload")) {
+              window[old.getAttribute("data-onunload")].call(window, old);
+            }
+          }
+
+          if (next) {
+            next.setAttribute("aria-selected", "true");
+            if (next.hasAttribute("data-onload")) {
+              window[next.getAttribute("data-onload")].call(window, next);
+            }
+          }
+
+
+          var index = document.querySelector("#index .pagenumber");
+          index.innerHTML = e.state;
+        }
+      }
+      function resize() {
+        var style = document.getElementById("resizeStyle");
+        if (!style) {
+          style = document.createElement("style");
+          style.id = "resizeStyle";
+          document.head.appendChild(style);
+        }
+        style.textContent = "body>section>div {height: "+ window.innerHeight +"px}";
+      }
+
+      window.addEventListener("resize", resize, true);
+      window.addEventListener("load", resize, true);
+      window.addEventListener("load", init, true);
+
+      // Webkit bug
+      // window.addEventListener("hashchange", init, true); // FIXME Webkit fires hashchange when it shouldn't
+      window.addEventListener("keydown", function(e) {
+        // Don't intercept keyboard shortcuts
+        if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
+          return;
+        }
+        if (   e.keyCode == 80 // p
+            || e.keyCode == 66 // b
+            || e.keyCode == 37 // left arrow
+            || e.keyCode == 33 // page up
+        ) {
+          e.preventDefault();
+          history.back();
+        }
+        if (   e.keyCode == 78 // n
+            || e.keyCode == 32 // space
+            || e.keyCode == 39 // right arrow
+            || e.keyCode == 34 // page down
+        ) {
+          e.preventDefault();
+          history.forward();
+        }
+      }, true);
+    </script>
+  </body>
+</html>
