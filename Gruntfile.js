@@ -86,6 +86,7 @@ module.exports = function(grunt) {
 			var content = fs.readFileSync(file, 'utf8');
 			var trimmed = content
 				.replace(/^(\r?\n){2,}/, '')       // 移除開頭兩個以上的換行
+				.replace(/(\r?\n){8,}/g, '\n\n')   // 將文中連續 4 個以上換行壓成 1 個
 				.replace(/(\r?\n){3,}$/, '\n\n');  // 移除結尾三個以上的換行
 			if (content !== trimmed) {
 				fs.writeFileSync(file, trimmed);
