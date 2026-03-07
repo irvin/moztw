@@ -12,23 +12,23 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>設定頁新增 AI Controls 區塊，可管理 AI 強化功能。可參考 <a target="_blank" href="https://blog.mozilla.org/en/products/firefox/firefox-ai-feature-controls/">說明文章</a> 與 <a target="_blank" href="https://support.mozilla.org/kb/customize-ai-features-firefox-settings">操作教學</a>。</p>
-      <p><img src="/firefox/releases/148.0/148_ai_controls_enabled.png" alt="螢幕截圖：Firefox 設定中的 AI Controls 選項"></p>
+      <p>設定頁新增 <a target="_blank" href="https://blog.mozilla.org/firefox/ai-controls/">AI Controls</a> 區塊，可管理 AI 強化功能。<a target="_blank" href="https://support.mozilla.org/kb/firefox-ai-controls">深入了解</a>。</p>
+      <p><img src="/firefox/releases/148.0/148_ai_controls_enabled.png" alt="螢幕截圖：Firefox 設定中的 AI 控制選項"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 強化了 PDF 中數學公式對螢幕閱讀器的支援，提升可及性體驗。</p>
+      <p>Firefox 強化了 <a target="_blank" href="https://pdfa.org/accessible-math-in-pdf-finally/#:~:text=Implications%20for%20PDF%20viewers">PDF 中數學公式對螢幕閱讀器的支援</a>，提升可及性體驗。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p><a target="_blank" href="https://support.mozilla.org/kb/remote-settings-improvements">Remote improvements</a> 現在與遙測設定脫鉤。即使你關閉遙測與實驗研究，也可以選擇接收遠端瀏覽器改進。</p>
+      <p>在 Firefox 設定中，<a target="_blank" href="https://support.mozilla.org/kb/remote-improvements">Remote improvements</a> 現已與遙測需求脫鉤。即使你關閉遙測或不參與實驗研究，也可以選擇接收遠端推送的瀏覽器改進。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p><a target="_blank" href="https://support.mozilla.org/kb/backup-and-restore-settings-data-firefox">Firefox Backup</a> 現在在 Windows 10 也支援「關閉 Firefox 時清除瀏覽記錄」的使用者。設為關閉時會清除的資料，不會被納入備份。</p>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/firefox-backup">Firefox Backup</a> 現在在 Windows 10 也支援「關閉 Firefox 時清除瀏覽記錄」的使用者。設為關閉時會清除的資料，不會被納入備份。</p>
     </li>
 
     <li>
@@ -38,7 +38,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p><a target="_blank" href="https://support.mozilla.org/kb/customize-items-on-firefox-new-tab-page">New Tab</a> 桌布現在也會套用到容器分頁的新分頁頁面。</p>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/customize-items-on-firefox-new-tab-page#w_wallpapers">New Tab</a> 桌布現在也會出現在容器分頁與一般分頁的新分頁上。</p>
     </li>
 
     <li>
@@ -53,7 +53,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>多項<a target="_blank" href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-13/">安全性修正</a>。</p>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-13/">安全性修正</a>。</p>
     </li>
 
     <li>
@@ -68,27 +68,27 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>初始 <code>about:blank</code> 文件現在採用更符合 Web 相容性的同步導覽行為。</p>
+      <p>初始 <code>about:blank</code> 文件現在符合 Web 相容性：若瀏覽情境的首次導覽為 <code>about:blank</code>，會以同步方式完成，且不再被第二個由剖析器產生的文件取代。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>新增 Service Worker 對 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/WebGPU_API">WebGPU</a> 的支援，WebGPU 現可在所有 worker context 使用。</p>
+      <p>新增 Service Worker 對 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/WebGPU_API">WebGPU</a> 的支援，WebGPU 現可在所有 worker 情境中使用。Service Worker 可讓 WebGPU 在背景執行，對擴充套件及能跨分頁與時段共享資源的頁面特別有用。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zip">Iterator.zip()</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zipKeyed">Iterator.zipKeyed()</a>。</p>
+      <p>支援聯合迭代提案中的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zip">Iterator.zip()</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zipKeyed">Iterator.zipKeyed()</a>，可將多個迭代器依位置合併為一組迭代值，與許多程式語言中的 <code>zip</code> 類似。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Trusted_Types_API">Trusted Types API</a>，加強跨站腳本防護能力。</p>
+      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Trusted_Types_API">Trusted Types API</a>，主要用於防範跨站腳本（XSS）攻擊。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/HTML_Sanitizer_API">Sanitizer API</a>，並新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Element/setHTML">element.setHTML()</a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/parseHTML_static">document.parseHTML()</a>。</p>
+      <p>支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/HTML_Sanitizer_API">Sanitizer API</a>，提供新的 HTML 操作方式。<a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Element/setHTML">element.setHTML()</a> 可讓開發者以類似 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Element/innerHTML">element.innerHTML</a> 的方式插入 HTML，但能避免跨站腳本（XSS）等安全風險；另提供 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/parseHTML_static">document.parseHTML()</a> 可安全解析 HTML。</p>
     </li>
 
     <li>
@@ -98,17 +98,17 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Navigation API 新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/NavigationPrecommitController/addHandler">NavigationPrecommitController.addHandler()</a> 支援。</p>
+      <p>Navigation API 新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/NavigationPrecommitController">NavigationPrecommitController.addHandler()</a> 支援，可在 pre-commit 階段註冊 post-commit 導覽處理器，以支援多階段導覽流程。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>CSS Anchor Positioning 新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/position-try-order">position-try-order</a> 支援。</p>
+      <p>CSS Anchor Positioning 新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-order">position-try-order</a> 屬性支援，可控制備援定位嘗試的順序。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>CSS 新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/basic-shape/shape">shape()</a> 函式支援，可在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/clip-path">clip-path</a> 等屬性中定義可回應式自由形狀。</p>
+      <p>CSS 新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/basic-shape/shape">shape()</a> 函式支援，可在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/clip-path">clip-path</a> 等接受形狀的屬性中定義可響應式自由形狀。與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/basic-shape/path">path()</a> 不同，shape() 使用標準 CSS 語法、支援多種 CSS 單位，並可使用數學函式。</p>
     </li>
   </ul>
 
@@ -121,7 +121,7 @@
 
   <h3>社群貢獻者</h3>
 
-  <p>Firefox 148 感謝以下首次把程式碼貢獻到 Firefox 的朋友，其中有 18 位是全新志工。一起看看他們的貢獻：</p>
+  <p>隨著 Firefox 148 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 18 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
 
   <ul>
     <li>Charlotte Wilson [:cswilson252]: <a target="_blank" href="https://bugzilla.mozilla.org/1774438">1774438</a></li>
@@ -132,16 +132,16 @@
     <li>Kiril Panayotov: <a target="_blank" href="https://bugzilla.mozilla.org/2001615">2001615</a></li>
     <li>Matt Kwee: <a target="_blank" href="https://bugzilla.mozilla.org/1938752">1938752</a></li>
     <li>Nathan: <a target="_blank" href="https://bugzilla.mozilla.org/2004797">2004797</a></li>
-    <li>Noriaki Watanabe: <a target="_blank" href="https://bugzilla.mozilla.org/2004688">2004688</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2005964">2005964</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2006047">2006047</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2006777">2006777</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2007503">2007503</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2008007">2008007</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2008072">2008072</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2008282">2008282</a></li>
+    <li>Noriaki Watanabe: <a target="_blank" href="https://bugzilla.mozilla.org/2004688">2004688</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2005964">2005964</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2006047">2006047</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2006777">2006777</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2007503">2007503</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2008007">2008007</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2008072">2008072</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2008282">2008282</a></li>
     <li>Rachel Rusiecki: <a target="_blank" href="https://bugzilla.mozilla.org/1804921">1804921</a></li>
     <li>Rocco Jiang: <a target="_blank" href="https://bugzilla.mozilla.org/2008967">2008967</a></li>
     <li>Sameem [:sameembaba]: <a target="_blank" href="https://bugzilla.mozilla.org/1976416">1976416</a></li>
-    <li>Serah Nderi: <a target="_blank" href="https://bugzilla.mozilla.org/1306461">1306461</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2007291">2007291</a></li>
+    <li>Serah Nderi: <a target="_blank" href="https://bugzilla.mozilla.org/1306461">1306461</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2007291">2007291</a></li>
     <li>Sergey Radionov: <a target="_blank" href="https://bugzilla.mozilla.org/1976489">1976489</a></li>
     <li>valadaptive: <a target="_blank" href="https://bugzilla.mozilla.org/1983387">1983387</a></li>
     <li>Vignesh Sadankae: <a target="_blank" href="https://bugzilla.mozilla.org/2003183">2003183</a></li>
     <li>Will Medina [:willyelm]: <a target="_blank" href="https://bugzilla.mozilla.org/2003345">2003345</a></li>
-    <li>Yunju Lee: <a target="_blank" href="https://bugzilla.mozilla.org/1987021">1987021</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2003165">2003165</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2004209">2004209</a>、<a target="_blank" href="https://bugzilla.mozilla.org/2004268">2004268</a></li>
+    <li>Yunju Lee: <a target="_blank" href="https://bugzilla.mozilla.org/1987021">1987021</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2003165">2003165</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004209">2004209</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004268">2004268</a></li>
   </ul>
 
 </article>

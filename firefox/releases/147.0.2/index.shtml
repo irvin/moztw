@@ -12,12 +12,12 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 現在提供實驗性的快捷鍵自訂功能。你可以在網址列輸入 <code>about:keyboard</code>，替換難按或難記的組合鍵、避開與其他軟體衝突，打造自己慣用的快捷鍵配置。歡迎到 <a target="_blank" href="https://connect.mozilla.org/">Mozilla Connect</a> 分享回饋。</p>
+      <p>Firefox 現在提供實驗性的快捷鍵自訂功能。你可以在網址列輸入 <code>about:keyboard</code>，替換難按或難記的組合鍵、避開與其他軟體衝突，打造自己慣用的快捷鍵配置。歡迎到 <a target="_blank" href="https://connect.mozilla.org/t5/discussions/customizable-hotkeys-is-live-please-help-us-scope-version-2/td-p/116793">Mozilla Connect</a> 分享回饋。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 Linux 使用 XDG Base Directories 時，瀏覽器功能缺失或失效的多項問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2011300">Bug 2011300</a>）</p>
+      <p>修正 Linux 使用 XDG Base Directories 時，瀏覽器部分功能缺失或失效的多項問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2011300">Bug 2011300</a>）</p>
     </li>
 
     <li>
@@ -32,7 +32,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>多項<a target="_blank" href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-03/">安全性修正</a>。</p>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-06/">安全性修正</a>。</p>
     </li>
 
     <li>

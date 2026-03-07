@@ -181,20 +181,20 @@
   <p>隨著 Firefox 147 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 14 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
 
   <ul>
-    <li>witty.31.06: <a target="_blank" href="https://bugzilla.mozilla.org/2000613">2000613</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000765">2000765</a></li>
-    <li>Tom Forbes: <a target="_blank" href="https://bugzilla.mozilla.org/1897424">1897424</a></li>
-    <li>Sick Leviathan: <a target="_blank" href="https://bugzilla.mozilla.org/1362499">1362499</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1918733">1918733</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1960699">1960699</a></li>
-    <li>Scott Venkataraman: <a target="_blank" href="https://bugzilla.mozilla.org/1995324">1995324</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1999325">1999325</a></li>
-    <li>Michal Bozon: <a target="_blank" href="https://bugzilla.mozilla.org/1998963">1998963</a></li>
-    <li>Lorenz A: <a target="_blank" href="https://bugzilla.mozilla.org/983296">983296</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1632071">1632071</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1665702">1665702</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1709063">1709063</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004038">2004038</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004205">2004205</a></li>
-    <li>Kipchumba Chelilim [:mrchumbastic]: <a target="_blank" href="https://bugzilla.mozilla.org/1905323">1905323</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1956817">1956817</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1994752">1994752</a></li>
-    <li>James Hay: <a target="_blank" href="https://bugzilla.mozilla.org/1864284">1864284</a></li>
-    <li>Dominique: <a target="_blank" href="https://bugzilla.mozilla.org/1995325">1995325</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000957">2000957</a></li>
-    <li>Daniel Singer: <a target="_blank" href="https://bugzilla.mozilla.org/1895228">1895228</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1981571">1981571</a></li>
-    <li>Areeba: <a target="_blank" href="https://bugzilla.mozilla.org/2000792">2000792</a></li>
-    <li>Aloys: <a target="_blank" href="https://bugzilla.mozilla.org/2002985">2002985</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2003194">2003194</a></li>
-    <li>Aaron Kriegman: <a target="_blank" href="https://bugzilla.mozilla.org/1955625">1955625</a></li>
     <li>[:Joe Cardoso] Loan de Deus Vieira Cardoso: <a target="_blank" href="https://bugzilla.mozilla.org/1730474">1730474</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1897620">1897620</a></li>
+    <li>Aaron Kriegman: <a target="_blank" href="https://bugzilla.mozilla.org/1955625">1955625</a></li>
+    <li>Aloys: <a target="_blank" href="https://bugzilla.mozilla.org/2002985">2002985</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2003194">2003194</a></li>
+    <li>Areeba: <a target="_blank" href="https://bugzilla.mozilla.org/2000792">2000792</a></li>
+    <li>Daniel Singer: <a target="_blank" href="https://bugzilla.mozilla.org/1895228">1895228</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1981571">1981571</a></li>
+    <li>Dominique: <a target="_blank" href="https://bugzilla.mozilla.org/1995325">1995325</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000957">2000957</a></li>
+    <li>James Hay: <a target="_blank" href="https://bugzilla.mozilla.org/1864284">1864284</a></li>
+    <li>Kipchumba Chelilim [:mrchumbastic]: <a target="_blank" href="https://bugzilla.mozilla.org/1905323">1905323</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1956817">1956817</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1994752">1994752</a></li>
+    <li>Lorenz A: <a target="_blank" href="https://bugzilla.mozilla.org/983296">983296</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1632071">1632071</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1665702">1665702</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1709063">1709063</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004038">2004038</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2004205">2004205</a></li>
+    <li>Michal Bozon: <a target="_blank" href="https://bugzilla.mozilla.org/1998963">1998963</a></li>
+    <li>Scott Venkataraman: <a target="_blank" href="https://bugzilla.mozilla.org/1995324">1995324</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1999325">1999325</a></li>
+    <li>Sick Leviathan: <a target="_blank" href="https://bugzilla.mozilla.org/1362499">1362499</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1918733">1918733</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1960699">1960699</a></li>
+    <li>Tom Forbes: <a target="_blank" href="https://bugzilla.mozilla.org/1897424">1897424</a></li>
+    <li>witty.31.06: <a target="_blank" href="https://bugzilla.mozilla.org/2000613">2000613</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000765">2000765</a></li>
   </ul>
 
 </article>

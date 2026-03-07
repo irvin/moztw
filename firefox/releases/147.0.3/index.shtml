@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>改進 CSS Anchor Positioning 與 Navigation Web API 的互通性表現。</p>
+      <p>改善 CSS anchor positioning 與 Navigation API 的相容性與互通表現。</p>
     </li>
 
     <li>
@@ -45,7 +45,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-unresolved">尚待修復</span>
-      <p>在 Linux（Wayland）系統上，部分彈出視窗與情境選單仍可能出現在錯誤位置（例如視窗左上角）。Firefox 147.0.3 已先提供部分緩解，剩餘案例將在後續版本修正。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003045">Bug 2003045</a>）</p>
+      <p>在 Linux（Wayland）系統上，部分彈出視窗與情境選單仍可能出現在錯誤位置（例如視窗左上角）。Firefox 147.0.3 已先提供部分緩解，剩餘案例預計在後續版本中修正。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003045">Bug 2003045</a>）</p>
     </li>
   </ul>
 
