@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 			main: {
 				files: [{
 					expand: true,
-					src: ['**/*.shtml', '!node_modules/**/*.shtml'],
+					src: ['**/*.shtml', '!node_modules/**/*.shtml', '!**/thunderbird/inc/hero.shtml'],
 					ext: '.html'
 				}]
 			}
