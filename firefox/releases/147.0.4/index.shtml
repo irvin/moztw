@@ -25,7 +25,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-unresolved">尚待修復</span>
-      <p>在 Linux（Wayland）系統上，部分彈出視窗與情境選單仍可能出現在錯誤位置（例如視窗左上角），預計在後續版本中修正。</p>
+      <p>在 Linux（Wayland）系統上，部分彈出視窗與右鍵選單可能出現在錯誤位置（例如視窗左上角）。預計在後續版本中修正。</p>
     </li>
   </ul>
 

@@ -22,7 +22,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正包含跨來源 iframe 的頁面，在使用 Inspector 節點挑選器並重新整理後，開發者工具可能無法再次開啟的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003810">Bug 2003810</a>）</p>
+      <p>修正包含跨來源 iframe 的頁面，使用檢測器的節點挑選器並重新整理後，開發者工具可能無法再次開啟的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003810">Bug 2003810</a>）</p>
     </li>
 
     <li>
@@ -32,7 +32,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 Windows 安裝大量字型時，Firefox 介面（分頁、選單、設定）可能顯示亂碼或符號而非可讀文字的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2012950">Bug 2012950</a>）</p>
+      <p>修正 Windows 安裝大量字型時，部分 Firefox 介面（分頁、選單、設定）可能顯示亂碼或符號而非可讀文字的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2012950">Bug 2012950</a>）</p>
     </li>
   </ul>
 
@@ -40,7 +40,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-unresolved">尚待修復</span>
-      <p>在 Linux（Wayland）系統上，部分彈出視窗與情境選單仍可能出現在錯誤位置（例如視窗左上角）。Firefox 147.0.3 已先提供部分緩解，剩餘案例預計在後續版本中修正。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003045">Bug 2003045</a>）</p>
+      <p>在 Linux（Wayland）系統上，部分彈出視窗與右鍵選單可能出現在錯誤位置（例如視窗左上角）。Firefox 147.0.3 已先提供部分緩解，剩餘問題預計在後續版本中修正。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2003045">Bug 2003045</a>）</p>
     </li>
   </ul>
 
