@@ -245,7 +245,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-                        <h5>35.0.1 - SVG / CSS 動畫的 regression 問題，造成在 openstreemap.org 等網站的不正常顯示（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1123732">bug 1123732</a>）。</h5>
+                        <h5>35.0.1 - SVG / CSS 動畫的 回退問題（regression），造成在 openstreemap.org 等網站的不正常顯示（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1123732">bug 1123732</a>）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>

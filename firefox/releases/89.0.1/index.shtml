@@ -23,12 +23,12 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正多個字體相關的回退（regressions）錯誤 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708224">bug 1694174</a>)</p>
+      <p>修正多個字體相關的回退錯誤（regression）（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694174">bug 1694174</a>）</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>Linux: 修正 WebRender 上效能與穩定性的回退錯誤 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708224">bug 1715895</a>)</p>
+      <p>Linux: 修正 WebRender 上效能與穩定性的回退錯誤（regression）（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1715895">bug 1715895</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1715902">bug 1715902</a>）</p>
     </li>
 
     <li>

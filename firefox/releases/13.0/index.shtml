@@ -300,7 +300,7 @@ section .appendix {
                         </li>
                         <li>
                           <span class="tag tag-unresolved">尚未修復</span>
-                          <h5>CSS：以 JavaScript 設定元素 class name 時，發生 :hover regression 的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=758885">bug 758885</a>）。</h5>
+                          <h5>CSS：以 JavaScript 設定元素 class name 時，發生 :hover 回退問題（regression）（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=758885">bug 758885</a>）。</h5>
                         </li>
                     </ul>
                 </div>

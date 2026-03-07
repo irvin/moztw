@@ -16,7 +16,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修復了最近的一個回退（regressions）問題，導致 Saraiki 語系版本的某些 UI 元件錯誤以「從左到右」顯示，而非「從右到左」。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1917175">bug 1917175</a>)</p>
+      <p>修復了最近的一個回退問題（regression），導致 Saraiki 語系版本的某些 UI 元件錯誤以「從左到右」顯示，而非「從右到左」。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1917175">bug 1917175</a>)</p>
     </li>
 
     <li>

@@ -46,7 +46,7 @@
     - 依來源頁所列完整名單與 Bug 編號呈現，並將編號連到 Bugzilla。
 - 結尾區塊「完整變更清單」：
   - Bugzilla 查詢更新為 {xxx}：`v3=Firefox {xxx}` / `v1=mozilla{xxx}`，並維持 `cf_status_firefox{xxx}` 與 `fixed,verified` 條件。
-  - 「前一個版本」連到 `/firefox/releases/{previous_version}/`，並使用 `<!--#echo var="previous_version" -->` 顯示版本號。例如：`<!--#echo var="previous_version" --> 版本的更新`。
+  - 「前一個版本」連到 `/firefox/releases/{previous_version}/`，連結文字為 `Firefox <!--#echo var="previous_version" --> 版本更新資訊`。「瞭解」與連結之間保留一空格（`你可能也想瞭解 <a href=...`）以利閱讀。
 
 ### 重要片段（示意）
 
@@ -64,7 +64,7 @@
 <ul class="tags">
   <li class="complete">
     請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20{xxx}&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox{xxx}&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla{xxx}&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
-    你可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
   </li>
 </ul>
 ```
