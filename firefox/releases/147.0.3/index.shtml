@@ -12,12 +12,12 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>改善 CSS anchor positioning 與 Navigation API 的相容性與互通表現。</p>
+      <p>改善 CSS anchor positioning 與 Navigation API 的相容性與互操作性。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正部分網站在特定 <code>:hover</code> 互動後，滑鼠滾輪捲動時 <code>position: sticky</code> 元素可能卡住或不更新的回歸問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2010481">Bug 2010481</a>）</p>
+      <p>修正部分網站在特定 <code>:hover</code> 互動後，滑鼠滾輪捲動時 <code>position: sticky</code> 元素可能卡住或不更新的回退問題（regression）。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2010481">Bug 2010481</a>）</p>
     </li>
 
     <li>

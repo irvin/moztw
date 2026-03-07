@@ -22,7 +22,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 Firefox View 各區塊無法如預期摺疊／展開的回退錯誤（regressions）。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989200">Bug 1989200</a>）</p>
+      <p>修正 Firefox View 各區塊無法如預期摺疊／展開的回退錯誤（regression）。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989200">Bug 1989200</a>）</p>
     </li>
 
     <li>
