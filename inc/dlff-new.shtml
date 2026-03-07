@@ -1,18 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--#include virtual="/inc/dlfx_var.shtml" -->
 <!-- latest release notes page that we had published -->
 
     <script type='text/javascript'>
@@ -23,7 +9,7 @@
     		*/
     		if (navigator.appVersion.indexOf('MSIE') !== -1) {
     			window.open(
-    				'https://download.mozilla.org/?product=firefox-148.0&os=win&lang=zh-TW',
+    				'<!--#echo var="WINURL" -->',
     				'_blank',
     				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
     			);
@@ -34,7 +20,7 @@
     <div id="download-button-desktop-release" class="download-button download-button-small">
       <ul class="download-list" role="presentation">
         <li class="os_windows">
-          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '14800-Windows');">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var="TAGVER" -->-Windows');">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
               <span class="download-subtitle">免費下載</span>
@@ -44,7 +30,7 @@
           </a>
         </li>
         <li class="os_windows64">
-          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '14800-Windows64');">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var="TAGVER" -->-Windows64');">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
               <span class="download-subtitle">免費下載</span>
@@ -54,7 +40,7 @@
           </a>
         </li>
         <li class="os_linux">
-          <a class="download-link" href="/firefox/download/latest-linux.html" onClick="ga('send', 'event', 'Download', 'Firefox', '14800-Linux');">
+          <a class="download-link" href="/firefox/download/latest-linux.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var="TAGVER" -->-Linux');">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
               <span class="download-subtitle">免費下載</span>
@@ -64,7 +50,7 @@
           </a>
         </li>
         <li class="os_linux64">
-          <a class="download-link" href="/firefox/download/latest-linux64.html" onClick="ga('send', 'event', 'Download', 'Firefox', '14800-Linux64');">
+          <a class="download-link" href="/firefox/download/latest-linux64.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var="TAGVER" -->-Linux64');">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
               <span class="download-subtitle">免費下載</span>
@@ -74,7 +60,7 @@
           </a>
         </li>
         <li class="os_osx">
-          <a class="download-link" href="/firefox/download/latest-osx.html" onClick="ga('send', 'event', 'Download', 'Firefox', '14800-Mac');">
+          <a class="download-link" href="/firefox/download/latest-osx.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var="TAGVER" -->-Mac');">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
               <span class="download-subtitle">免費下載</span>
