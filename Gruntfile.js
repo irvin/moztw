@@ -1,7 +1,5 @@
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
-	grunt.loadNpmTasks('grunt-contrib-clean');
-
 	var BSconfig = require('./bs-config');
 	grunt.initConfig({
 		watch: {
@@ -89,7 +87,7 @@ module.exports = function(grunt) {
 		},
 		clean: {
 			dist: ['_site/']
-    }
+		}
 	});
 	grunt.event.on('watch', function(action, filepath) {
 		var cfgkey = ['copy', 'main', 'files'];
@@ -128,8 +126,6 @@ module.exports = function(grunt) {
 	// 新增 build 任務（本地建構，產出在專案根目錄）
 	grunt.registerTask('build', ['copy', 'ssi']);
 
-	// Build and install site files to the _site/ distribution directory.
-	// FIXME: Subsequent builds will fail if the _site/ directory isn't removed.
-	// FIXME: Test environment container that bind-mounts the _site directory will not work if it is created _before_ the dist operation(as it will be removed during the process).
+	// Build to _site/ (CI then rsyncs _site/ into gh-pages worktree and pushes).
 	grunt.registerTask('dist', ['clean:dist', 'copy:main', 'ssi', 'copy:dist']);
 };
