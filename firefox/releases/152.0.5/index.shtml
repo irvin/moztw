@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正已儲存的付款卡沒有到期日時，設定中「管理付款方式」清單顯示為空白的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2048383">Bug 2048383</a>）</p>
+      <p>修正已儲存的付款卡片不包含到期日期時，設定中「管理付款方式」清單顯示為空白的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2048383">Bug 2048383</a>）</p>
     </li>
   </ul>
 
