@@ -59,7 +59,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>當網站存取你的位置時，Firefox 現在會以紅色醒目顯示位置權限圖示。搜尋結果頁上先前隱藏的權限圖示現在也會顯示。</p>
+      <p>當網站可存取你的位置時，Firefox 現在會以紅色醒目顯示位置權限圖示。搜尋結果頁上先前隱藏的權限圖示現在也會顯示。</p>
       <p><img src="/firefox/releases/153.0/153_geolocation_icon.png" alt="螢幕截圖：以紅色醒目顯示的位置權限圖示"></p>
     </li>
 
@@ -102,7 +102,7 @@
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>已從設定介面移除過時的 Cookie 設定。仍使用該模式的使用者應已切換成預設「隔離跨站 cookie」行為。<a target="_blank" href="https://groups.google.com/a/mozilla.org/g/firefox-dev/c/dXvMLkzyFqM">更多資訊</a></p>
+      <p>已從設定介面移除過時的 Cookie 設定。仍使用該模式的使用者應切換為預設的「隔離跨站 Cookie」行為。<a target="_blank" href="https://groups.google.com/a/mozilla.org/g/firefox-dev/c/dXvMLkzyFqM">更多資訊</a></p>
     </li>
 
     <li>
