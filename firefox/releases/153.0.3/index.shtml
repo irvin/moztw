@@ -1,0 +1,63 @@
+<!--#set var="release_date" value="2026-08-04" -->
+<!--#set var="version" value="153.0.3" -->
+<!--#set var="previous_version" value="153.0.1" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/153.0.3/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>包含多項 <a target="_blank" href="https://www.firefox.com/smart-window">智慧視窗</a> 改進：</p>
+      <ul>
+        <li>建議清單現在顯示更多結果，更容易找到瀏覽記錄與切換至已開啟的分頁。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2019042">Bug 2019042</a>）</li>
+        <li>助手現在可直接使用 Exa 的網路搜尋結果回答問題，不再轉交給搜尋引擎。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2046183">Bug 2046183</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2044385">Bug 2044385</a>）</li>
+      </ul>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正從 Blob URL 載入媒體的網站上，音訊與視訊無法播放，或跳轉播放位置時卡住的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056444">Bug 2056444</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正從 Firefox 拖曳到 Windows 桌面的網路捷徑被標記為不受信任，導致每次開啟都出現安全性警告的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056865">Bug 2056865</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正當側邊欄隱藏且密碼管理員被企業政策停用時，書籤、瀏覽記錄及其他側邊欄無法開啟的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056857">Bug 2056857</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Mozilla VPN 升級優惠在未販售 Mozilla VPN 的地區顯示的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058264">Bug 2058264</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在擴充套件內容腳本新增事件監聽器的頁面上，開發者工具檢查器頻繁當機的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2042101">Bug 2042101</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上在部分更新仍套用時啟動 Firefox，可能讓安裝損壞且無法啟動的罕見問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058197">Bug 2058197</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058594">Bug 2058594</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20153&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox153&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla153&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

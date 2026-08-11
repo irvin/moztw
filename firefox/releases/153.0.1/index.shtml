@@ -1,0 +1,81 @@
+<!--#set var="release_date" value="2026-07-28" -->
+<!--#set var="version" value="153.0.1" -->
+<!--#set var="previous_version" value="153.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/153.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Firefox 更新後，部分應用程式內部檔案無法載入，可能導致 Firefox 在 Windows 上啟動時當機的問題。Firefox 現在應可在這些情況下啟動，但在後續更新完成前，部分介面可能無法正確顯示。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056926">Bug 2056926</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在部分音樂與音訊串流網站上，暫停並繼續播放後音訊變成無聲的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053586">Bug 2053586</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正使用自訂桌布時，新分頁載入幾秒後背景閃爍的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056650">Bug 2056650</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正頁面載入使用 <code>javascript:</code> 位址的框架時可能發生當機的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054485">Bug 2054485</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在頁面的可編輯區域輸入文字時可能發生當機的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053867">Bug 2053867</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正你已自行安裝的搜尋引擎，之後 Firefox 開始提供相同引擎時被標示為「新增」的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053710">Bug 2053710</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>改善遊戲與其他沉浸式網路內容使用的指標鎖定，降低滑鼠指標逃離 Firefox 視窗的可能性。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255338">Bug 1255338</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2040628">Bug 2040628</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正檢查器「規則」檢視中，每個選取元素的虛擬元素只能展開一次的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054525">Bug 2054525</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正「檢視頁面原始碼」無法載入 <code>blob:</code> 文件的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054428">Bug 2054428</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正「檢視頁面原始碼」在繼承來源的文件（例如使用 <code>srcdoc</code> 屬性的框架）上逾時的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054487">Bug 2054487</a>）</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p><del>部分 Windows 使用者在更新後啟動 Firefox 時可能發生當機，原因是不完整的更新導致 Firefox 安裝處於不一致的狀態。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1681745">Bug 1681745</a>）若受到影響，可從 <a target="_blank" href="https://www.firefox.com/">firefox.com</a> 下載 Firefox，並覆蓋安裝到現有的 Firefox 上即可修復。你的書籤、密碼與其他資料會另外儲存，不會受到影響。</del>已於 <a target="_blank" href="https://www.firefox.com/en-US/firefox/153.0.1/releasenotes/">Firefox 153.0.1</a> 修復。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20153&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox153&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla153&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
