@@ -17,7 +17,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正在部分音樂與音訊串流網站上，暫停並繼續播放後音訊變成無聲的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053586">Bug 2053586</a>）</p>
+      <p>修正在部分音樂與音訊串流網站上，暫停並繼續播放後聲音消失的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053586">Bug 2053586</a>）</p>
     </li>
 
     <li>
@@ -27,7 +27,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正頁面載入使用 <code>javascript:</code> 位址的框架時可能發生當機的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054485">Bug 2054485</a>）</p>
+      <p>修正頁面載入使用 <code>javascript:</code> 位址的頁框（frame）時可能發生的當機。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054485">Bug 2054485</a>）</p>
     </li>
 
     <li>
@@ -37,7 +37,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正你已自行安裝的搜尋引擎，之後 Firefox 開始提供相同引擎時被標示為「新增」的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053710">Bug 2053710</a>）</p>
+      <p>修正你已自行安裝的搜尋引擎，在 Firefox 開始提供相同引擎時，被標示為「新增」的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053710">Bug 2053710</a>）</p>
     </li>
 
     <li>
@@ -52,12 +52,12 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正「檢視頁面原始碼」無法載入 <code>blob:</code> 文件的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054428">Bug 2054428</a>）</p>
+      <p>修正「檢視原始碼」無法載入 <code>blob:</code> 文件的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054428">Bug 2054428</a>）</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正「檢視頁面原始碼」在繼承來源的文件（例如使用 <code>srcdoc</code> 屬性的框架）上逾時的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054487">Bug 2054487</a>）</p>
+      <p>修正「檢視原始碼」在繼承來源的文件（例如使用 <code>srcdoc</code> 屬性的頁框）上逾時的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2054487">Bug 2054487</a>）</p>
     </li>
   </ul>
 

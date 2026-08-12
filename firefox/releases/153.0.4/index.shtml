@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正清除瀏覽記錄時 Firefox 變得無回應，並可能導致網站資料遺失的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2059647">Bug 2059647</a>）</p>
+      <p>修正清除瀏覽歷史記錄時 Firefox 變得無回應，並可能導致網站資料遺失。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2059647">Bug 2059647</a>）</p>
     </li>
   </ul>
 

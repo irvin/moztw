@@ -22,22 +22,22 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正從 Blob URL 載入媒體的網站上，音訊與視訊無法播放，或跳轉播放位置時卡住的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056444">Bug 2056444</a>）</p>
+      <p>修正從 Blob URL 載入媒體的網站上，音訊與視訊無法播放，或跳轉播放位置時卡住。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056444">Bug 2056444</a>）</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正從 Firefox 拖曳到 Windows 桌面的網路捷徑被標記為不受信任，導致每次開啟都出現安全性警告的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056865">Bug 2056865</a>）</p>
+      <p>修正從 Firefox 拖曳到 Windows 桌面的網路捷徑被標記為不受信任，因此每次開啟都出現安全性警告。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056865">Bug 2056865</a>）</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正當側邊欄隱藏且密碼管理員被企業政策停用時，書籤、瀏覽記錄及其他側邊欄無法開啟的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056857">Bug 2056857</a>）</p>
+      <p>修正當側邊欄隱藏且企業政策停用密碼管理員時，書籤、瀏覽記錄及其他側邊欄無法開啟的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056857">Bug 2056857</a>）</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 Mozilla VPN 升級優惠在未販售 Mozilla VPN 的地區顯示的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058264">Bug 2058264</a>）</p>
+      <p>修正尚未販售 Mozilla VPN 的地區仍顯示 Mozilla VPN 升級優惠。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058264">Bug 2058264</a>）</p>
     </li>
 
     <li>
@@ -47,7 +47,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 Windows 上在部分更新仍套用時啟動 Firefox，可能讓安裝損壞且無法啟動的罕見問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058197">Bug 2058197</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058594">Bug 2058594</a>）</p>
+      <p>修正 Windows 上在部分更新仍在套用時啟動 Firefox，可能讓安裝損壞且無法啟動的罕見問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058197">Bug 2058197</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2058594">Bug 2058594</a>）</p>
     </li>
   </ul>
 
